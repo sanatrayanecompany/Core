@@ -1,0 +1,18 @@
+{
+  "ConnectionString": "data source=46.209.115.21; initial catalog=MockTestDB_Testing; user id=sa; password=Iran@98741(*&$!",
+  "Token": {
+    "Enable": true,
+    "Minute": 10000,
+    "Issuer": "Issuer",
+    "Audience": "Audience",
+    "SecurityKey": "E32A795DF1AFB6BB"
+  },
+  "ExceptionLog": true,
+  "CamelCaseJsonResponse": true,
+  "Origin": {
+    "AccessControlAllowOrigin": "*",
+    "AccessControlAllowHeaders": "Authorization, Content-Type",
+    "AccessControlAllowMethods": "GET, POST, PUT, DELETE, OPTIONS",
+    "AccessControlAllowCredentials": "false"
+  }
+}

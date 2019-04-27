@@ -1,0 +1,2258 @@
+* 4/14/2018 1:36:19 PM
+	GET /api/contact/getallnew
+	500 Processing of the HTTP request resulted in an exception. Please see the HTTP response returned by the 'Response' property of this exception for details.
+
+* 4/14/2018 1:36:49 PM
+	GET /api/contact/getallnew
+	500 Processing of the HTTP request resulted in an exception. Please see the HTTP response returned by the 'Response' property of this exception for details.
+
+* 4/14/2018 1:37:14 PM
+	GET /api/contact/getallnew
+	500 Processing of the HTTP request resulted in an exception. Please see the HTTP response returned by the 'Response' property of this exception for details.
+
+* 4/19/2018 8:29:12 AM
+	GET /api/contact/getall
+	500 A task was canceled.
+
+* 11/03/1397 01:41:06 ق.ظ
+	POST /api/login/authentication
+	500 Processing of the HTTP request resulted in an exception. Please see the HTTP response returned by the 'Response' property of this exception for details.
+
+* 11/03/1397 01:41:13 ق.ظ
+	POST /api/login/authentication
+	500 Processing of the HTTP request resulted in an exception. Please see the HTTP response returned by the 'Response' property of this exception for details.
+
+* 11/03/1397 01:42:27 ق.ظ
+	POST /api/login/authentication
+	500 Processing of the HTTP request resulted in an exception. Please see the HTTP response returned by the 'Response' property of this exception for details.
+
+* 21/03/1397 06:52:52 ق.ظ
+	POST /api/login/authentication
+	500 The operation was canceled.
+
+* 23/03/1397 08:12:17 ق.ظ
+	POST /api/login/token
+	500 The operation was canceled.
+
+* 23/03/1397 10:27:38 ب.ظ
+	POST /api/login/token
+	500 The operation was canceled.
+
+* 23/03/1397 10:28:21 ب.ظ
+	POST /api/login/token
+	500 The operation was canceled.
+
+* 24/03/1397 01:08:54 ق.ظ
+	POST /api/login/authentication
+	500 Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'Core.Model.UserRole'.
+
+* 24/03/1397 01:08:54 ق.ظ
+	POST /api/login/authentication
+	500 Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'Core.Model.UserRole'.
+
+* 24/03/1397 01:11:46 ق.ظ
+	POST /api/login/authentication
+	500 Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'Core.Model.UserRole'.
+
+* 24/03/1397 01:12:28 ق.ظ
+	POST /api/login/authentication
+	500 Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'Core.Model.UserRole'.
+
+* 24/03/1397 01:12:29 ق.ظ
+	POST /api/login/authentication
+	500 Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'Core.Model.UserRole'.
+
+* 24/03/1397 01:13:04 ق.ظ
+	POST /api/login/authentication
+	500 Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'Core.Model.UserRole'.
+
+* 24/03/1397 01:13:53 ق.ظ
+	POST /api/login/authentication
+	500 Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'Core.Model.UserRole'.
+
+* 24/03/1397 01:14:35 ق.ظ
+	POST /api/login/authentication
+	500 Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'Core.Model.UserRole'.
+
+* 24/03/1397 01:15:21 ق.ظ
+	POST /api/login/authentication
+	500 Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'Core.Model.UserRole'.
+
+* 24/03/1397 01:34:09 ق.ظ
+	POST /api/login/authentication
+	500 Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'Core.Model.UserRole'.
+
+* 24/03/1397 01:34:37 ق.ظ
+	POST /api/login/authentication
+	500 Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'Core.Model.UserRole'.
+
+* 24/03/1397 01:38:54 ق.ظ
+	POST /api/login/authentication
+	500 Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'Core.Model.UserRole'.
+
+* 24/03/1397 01:39:15 ق.ظ
+	POST /api/login/authentication
+	500 Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'Core.Model.UserRole'.
+
+* 24/03/1397 01:39:36 ق.ظ
+	POST /api/login/authentication
+	500 Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'Core.Model.UserRole'.
+
+* 24/03/1397 02:12:01 ق.ظ
+	POST /api/login/authentication
+	500 Parameter count mismatch.
+
+* 24/03/1397 06:51:30 ق.ظ
+	GET /api/menu/getMenu
+	500 Processing of the HTTP request resulted in an exception. Please see the HTTP response returned by the 'Response' property of this exception for details.
+
+* 24/03/1397 06:51:36 ق.ظ
+	GET /api/menu/getMenu
+	500 Processing of the HTTP request resulted in an exception. Please see the HTTP response returned by the 'Response' property of this exception for details.
+
+* 24/03/1397 06:51:50 ق.ظ
+	GET /api/menu/getMenu
+	500 Processing of the HTTP request resulted in an exception. Please see the HTTP response returned by the 'Response' property of this exception for details.
+
+* 24/03/1397 06:54:14 ق.ظ
+	GET /api/menu/getMenu
+	500 Processing of the HTTP request resulted in an exception. Please see the HTTP response returned by the 'Response' property of this exception for details.
+
+* 24/03/1397 06:54:36 ق.ظ
+	GET /api/menu/getMenu
+	500 Processing of the HTTP request resulted in an exception. Please see the HTTP response returned by the 'Response' property of this exception for details.
+
+* 24/03/1397 06:59:11 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 24/03/1397 07:07:48 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 24/03/1397 08:48:37 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 24/03/1397 08:49:33 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 25/03/1397 12:53:32 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 25/03/1397 01:01:06 ق.ظ
+	GET /api/menu/getMenu
+	500 A task was canceled.
+
+* 25/03/1397 01:17:25 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 25/03/1397 01:21:25 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 27/03/1397 08:01:37 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 27/03/1397 08:07:34 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 27/03/1397 08:07:34 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 27/03/1397 08:08:32 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 27/03/1397 08:09:57 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 27/03/1397 08:12:10 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 27/03/1397 08:16:31 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 27/03/1397 08:19:13 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 27/03/1397 08:21:22 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 27/03/1397 08:21:35 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 27/03/1397 08:22:31 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 27/03/1397 08:27:14 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 27/03/1397 08:28:06 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 27/03/1397 08:32:44 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 27/03/1397 08:40:25 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 27/03/1397 08:41:58 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 27/03/1397 08:44:47 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 27/03/1397 08:45:33 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 27/03/1397 08:46:24 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 27/03/1397 08:47:23 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 27/03/1397 08:48:07 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 27/03/1397 08:48:41 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 27/03/1397 08:57:41 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 27/03/1397 08:59:08 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 27/03/1397 09:00:56 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 27/03/1397 09:01:16 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 27/03/1397 09:02:25 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 27/03/1397 09:03:22 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 27/03/1397 09:03:56 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 27/03/1397 09:05:01 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 27/03/1397 09:05:08 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 27/03/1397 09:05:14 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 27/03/1397 09:05:22 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 27/03/1397 09:07:15 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 27/03/1397 09:07:23 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 27/03/1397 09:07:44 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 27/03/1397 09:08:06 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 27/03/1397 09:08:29 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 27/03/1397 09:09:07 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 27/03/1397 09:09:29 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 27/03/1397 09:09:50 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 27/03/1397 09:10:06 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 03/04/1397 06:17:05 ق.ظ
+	GET /api/menu/getMenu
+	500 A task was canceled.
+
+* 03/04/1397 06:17:29 ق.ظ
+	GET /api/menu/getMenu
+	500 A task was canceled.
+
+* 03/04/1397 06:17:29 ق.ظ
+	GET /api/menu/getMenu
+	500 A task was canceled.
+
+* 03/04/1397 07:09:20 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 03/04/1397 07:09:57 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 03/04/1397 07:10:42 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 03/04/1397 07:11:00 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 03/04/1397 07:11:35 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 03/04/1397 07:12:01 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 03/04/1397 07:14:15 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 03/04/1397 07:17:55 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 03/04/1397 07:21:06 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 03/04/1397 07:27:21 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 03/04/1397 07:52:11 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 03/04/1397 08:18:27 ق.ظ
+	GET /api/menu/getMenu
+	500 A task was canceled.
+
+* 03/04/1397 08:18:27 ق.ظ
+	GET /api/menu/getMenu
+	500 A task was canceled.
+
+* 03/04/1397 08:19:50 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 03/04/1397 08:38:16 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 03/04/1397 08:40:53 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 03/04/1397 08:41:36 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 03/04/1397 08:42:35 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 03/04/1397 08:45:43 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 03/04/1397 08:51:21 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 03/04/1397 08:51:44 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 03/04/1397 08:54:07 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 03/04/1397 09:00:10 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 09/04/1397 09:04:36 ق.ظ
+	GET /api/menu/getMenu
+	500 A task was canceled.
+
+* 09/04/1397 09:05:00 ق.ظ
+	GET /api/menu/getMenu
+	500 A task was canceled.
+
+* 10/04/1397 07:17:57 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 10/04/1397 07:18:14 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 10/04/1397 07:18:18 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 10/04/1397 07:18:40 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 10/04/1397 07:18:43 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 16/04/1397 07:18:22 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 16/04/1397 07:18:35 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 18/04/1397 05:25:13 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 22/04/1397 10:36:27 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 22/04/1397 10:36:32 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 22/04/1397 10:36:59 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 22/04/1397 10:37:07 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 24/04/1397 11:17:07 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 24/04/1397 11:18:22 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 28/04/1397 03:34:48 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 28/04/1397 03:39:05 ق.ظ
+	GET /api/menu/getMenu
+	500 A task was canceled.
+
+* 28/04/1397 03:39:09 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 28/04/1397 03:40:49 ق.ظ
+	GET /api/menu/getMenu
+	500 A task was canceled.
+
+* 28/04/1397 03:40:53 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 28/04/1397 04:35:05 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 28/04/1397 04:35:42 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 28/04/1397 11:54:09 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 29/04/1397 12:36:49 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 29/04/1397 12:42:32 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 29/04/1397 12:42:39 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 29/04/1397 12:42:45 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 29/04/1397 12:50:17 ق.ظ
+	GET /api/userRole/getAllView
+	500 A task was canceled.
+
+* 29/04/1397 01:36:39 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 29/04/1397 01:37:13 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 29/04/1397 01:38:34 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 29/04/1397 01:39:05 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 29/04/1397 01:40:46 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 29/04/1397 01:45:16 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 29/04/1397 01:59:22 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 29/04/1397 02:18:31 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 29/04/1397 02:33:00 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 29/04/1397 02:33:17 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 29/04/1397 02:33:24 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 29/04/1397 02:33:36 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 29/04/1397 02:34:20 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 29/04/1397 02:34:28 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 29/04/1397 02:35:15 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 30/04/1397 08:07:33 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 31/04/1397 06:48:10 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 31/04/1397 06:48:24 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 31/04/1397 06:48:33 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 31/04/1397 07:34:22 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 31/04/1397 08:08:22 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 01/05/1397 07:23:23 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 01/05/1397 12:11:35 ب.ظ
+	GET /api/user/remove?Id=10
+	500 Processing of the HTTP request resulted in an exception. Please see the HTTP response returned by the 'Response' property of this exception for details.
+
+* 01/05/1397 12:11:41 ب.ظ
+	GET /api/user/remove?Id=10
+	500 Processing of the HTTP request resulted in an exception. Please see the HTTP response returned by the 'Response' property of this exception for details.
+
+* 01/05/1397 12:11:57 ب.ظ
+	GET /api/user/remove?Id=10
+	500 Processing of the HTTP request resulted in an exception. Please see the HTTP response returned by the 'Response' property of this exception for details.
+
+* 01/05/1397 01:07:58 ب.ظ
+	GET /api/user/remove?Id=10
+	500 Processing of the HTTP request resulted in an exception. Please see the HTTP response returned by the 'Response' property of this exception for details.
+
+* 01/05/1397 01:08:32 ب.ظ
+	GET /api/user/remove?Id=10
+	500 Processing of the HTTP request resulted in an exception. Please see the HTTP response returned by the 'Response' property of this exception for details.
+
+* 01/05/1397 01:08:39 ب.ظ
+	GET /api/user/remove?Id=10
+	500 Processing of the HTTP request resulted in an exception. Please see the HTTP response returned by the 'Response' property of this exception for details.
+
+* 02/05/1397 02:03:48 ب.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 03/05/1397 07:11:38 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 03/05/1397 07:11:52 ق.ظ
+	GET /api/menu/getMenu
+	500 A task was canceled.
+
+* 03/05/1397 07:11:53 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 03/05/1397 09:27:41 ق.ظ
+	POST /api/rule/Add
+	500 Object reference not set to an instance of an object.
+
+* 03/05/1397 09:27:51 ق.ظ
+	POST /api/rule/Add
+	500 Object reference not set to an instance of an object.
+
+* 03/05/1397 09:29:06 ق.ظ
+	POST /api/rule/Add
+	500 Object reference not set to an instance of an object.
+
+* 03/05/1397 09:29:13 ق.ظ
+	POST /api/rule/Add
+	500 Object reference not set to an instance of an object.
+
+* 03/05/1397 09:29:16 ق.ظ
+	POST /api/rule/Add
+	500 Object reference not set to an instance of an object.
+
+* 03/05/1397 09:29:22 ق.ظ
+	POST /api/rule/Add
+	500 Object reference not set to an instance of an object.
+
+* 03/05/1397 09:29:29 ق.ظ
+	POST /api/rule/Add
+	500 Object reference not set to an instance of an object.
+
+* 03/05/1397 09:30:20 ق.ظ
+	POST /api/rule/Add
+	500 Object reference not set to an instance of an object.
+
+* 03/05/1397 09:30:30 ق.ظ
+	POST /api/rule/Add
+	500 Object reference not set to an instance of an object.
+
+* 03/05/1397 09:30:35 ق.ظ
+	POST /api/rule/Add
+	500 Object reference not set to an instance of an object.
+
+* 03/05/1397 12:08:20 ب.ظ
+	POST /api/rule/Add
+	500 Object reference not set to an instance of an object.
+
+* 03/05/1397 12:09:25 ب.ظ
+	POST /api/rule/Add
+	500 Object reference not set to an instance of an object.
+
+* 03/05/1397 12:14:20 ب.ظ
+	POST /api/rule/Add
+	500 Object reference not set to an instance of an object.
+
+* 04/05/1397 11:40:47 ق.ظ
+	POST /api/rule/Add
+	500 Object reference not set to an instance of an object.
+
+* 04/05/1397 11:41:35 ق.ظ
+	POST /api/rule/Add
+	500 Object reference not set to an instance of an object.
+
+* 04/05/1397 11:41:50 ق.ظ
+	POST /api/rule/Add
+	500 Object reference not set to an instance of an object.
+
+* 04/05/1397 10:12:10 ب.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 04/05/1397 10:58:54 ب.ظ
+	POST /api/rule/Add
+	500 Object reference not set to an instance of an object.
+
+* 05/05/1397 12:00:47 ق.ظ
+	GET /api/rule/ExportPdf?Id=17
+	500 A task was canceled.
+
+* 05/05/1397 12:08:05 ق.ظ
+	GET /api/rule/ExportPdf?Id=18
+	500 A task was canceled.
+
+* 05/05/1397 12:18:23 ق.ظ
+	GET /api/rule/ExportFile?Id=18
+	500 A task was canceled.
+
+* 05/05/1397 12:32:26 ق.ظ
+	GET /api/rule/ExportFile?Id=21
+	500 A task was canceled.
+
+* 05/05/1397 01:08:59 ق.ظ
+	GET /api/rule/ExportFile?Id=22
+	500 A task was canceled.
+
+* 05/05/1397 02:17:28 ق.ظ
+	GET /api/rule/ExportFile?Id=25
+	500 A task was canceled.
+
+* 05/05/1397 09:27:27 ق.ظ
+	GET /api/user/getById
+	500 Object reference not set to an instance of an object.
+
+* 05/05/1397 02:10:00 ب.ظ
+	GET /api/user/getById
+	500 Object reference not set to an instance of an object.
+
+* 05/05/1397 03:23:12 ب.ظ
+	GET /api/user/getById
+	500 Object reference not set to an instance of an object.
+
+* 05/05/1397 03:23:25 ب.ظ
+	GET /api/user/getById
+	500 Object reference not set to an instance of an object.
+
+* 05/05/1397 03:23:39 ب.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 05/05/1397 04:13:07 ب.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 08/05/1397 01:37:24 ب.ظ
+	GET /api/TestItem/getAll
+	500 A task was canceled.
+
+* 09/05/1397 02:34:25 ب.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 09/05/1397 02:34:36 ب.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 11/05/1397 03:00:04 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 11/05/1397 04:14:15 ق.ظ
+	GET /api/rule/ExportFile?Id=27
+	500 A task was canceled.
+
+* 11/05/1397 06:19:06 ق.ظ
+	GET /api/branch/getAllBranchView
+	500 Object reference not set to an instance of an object.
+
+* 11/05/1397 06:19:06 ق.ظ
+	GET /api/user/getById
+	500 Object reference not set to an instance of an object.
+
+* 11/05/1397 10:41:56 ب.ظ
+	GET /api/user/getById
+	500 A task was canceled.
+
+* 14/05/1397 03:15:06 ب.ظ
+	GET /api/user/getById
+	500 Object reference not set to an instance of an object.
+
+* 20/05/1397 06:13:19 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 20/05/1397 06:14:47 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 20/05/1397 06:20:18 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 20/05/1397 07:25:22 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 20/05/1397 08:38:07 ق.ظ
+	GET /api/user/getById
+	500 Object reference not set to an instance of an object.
+
+* 20/05/1397 08:44:46 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 21/05/1397 07:30:14 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 21/05/1397 07:59:01 ق.ظ
+	GET /api/user/getById
+	500 Object reference not set to an instance of an object.
+
+* 21/05/1397 07:59:13 ق.ظ
+	POST /api/login/authentication
+	500 Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+* 21/05/1397 07:59:45 ق.ظ
+	POST /api/login/authentication
+	500 Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+* 21/05/1397 08:01:42 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 21/05/1397 08:01:42 ق.ظ
+	GET /api/user/getById
+	500 Object reference not set to an instance of an object.
+
+* 21/05/1397 08:03:22 ق.ظ
+	GET /api/user/getById
+	500 Object reference not set to an instance of an object.
+
+* 21/05/1397 08:04:22 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 21/05/1397 08:05:53 ق.ظ
+	POST /api/login/authentication
+	500 URI formats are not supported.
+
+* 21/05/1397 08:07:46 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 21/05/1397 08:08:08 ق.ظ
+	POST /api/login/authentication
+	500 URI formats are not supported.
+
+* 21/05/1397 08:08:43 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 22/05/1397 05:53:06 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 22/05/1397 05:53:08 ق.ظ
+	GET /api/user/getById
+	500 Object reference not set to an instance of an object.
+
+* 22/05/1397 05:53:27 ق.ظ
+	GET /api/user/getById
+	500 Object reference not set to an instance of an object.
+
+* 22/05/1397 05:54:28 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 22/05/1397 05:54:28 ق.ظ
+	GET /api/user/getById
+	500 Object reference not set to an instance of an object.
+
+* 23/05/1397 06:03:38 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 23/05/1397 06:44:06 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 23/05/1397 07:07:38 ق.ظ
+	GET /api/user/getById
+	500 Object reference not set to an instance of an object.
+
+* 23/05/1397 07:09:10 ق.ظ
+	GET /api/user/getById
+	500 Object reference not set to an instance of an object.
+
+* 23/05/1397 07:09:40 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 24/05/1397 08:22:35 ق.ظ
+	GET /api/login/permissions
+	500 A task was canceled.
+
+* 24/05/1397 08:22:36 ق.ظ
+	GET /api/login/permissions
+	500 A task was canceled.
+
+* 24/05/1397 08:22:37 ق.ظ
+	GET /api/login/permissions
+	500 A task was canceled.
+
+* 24/05/1397 08:22:45 ق.ظ
+	GET /api/login/permissions
+	500 A task was canceled.
+
+* 24/05/1397 08:22:46 ق.ظ
+	GET /api/login/permissions
+	500 A task was canceled.
+
+* 24/05/1397 08:22:46 ق.ظ
+	GET /api/login/permissions
+	500 A task was canceled.
+
+* 24/05/1397 08:22:46 ق.ظ
+	GET /api/login/permissions
+	500 A task was canceled.
+
+* 24/05/1397 08:23:03 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 24/05/1397 08:23:03 ق.ظ
+	GET /api/user/getById
+	500 Object reference not set to an instance of an object.
+
+* 24/05/1397 08:35:07 ق.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 24/05/1397 01:07:59 ب.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 24/05/1397 11:01:26 ب.ظ
+	GET /api/user/getById
+	500 Object reference not set to an instance of an object.
+
+* 24/05/1397 11:01:26 ب.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 24/05/1397 11:01:35 ب.ظ
+	GET /api/user/getById
+	500 Object reference not set to an instance of an object.
+
+* 24/05/1397 11:01:39 ب.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 24/05/1397 11:01:39 ب.ظ
+	GET /api/user/getById
+	500 Object reference not set to an instance of an object.
+
+* 24/05/1397 11:01:47 ب.ظ
+	GET /api/user/getById
+	500 A task was canceled.
+
+* 24/05/1397 11:01:48 ب.ظ
+	GET /api/menu/getMenu
+	500 A task was canceled.
+
+* 24/05/1397 11:01:49 ب.ظ
+	GET /api/user/getById
+	500 Object reference not set to an instance of an object.
+
+* 24/05/1397 11:01:49 ب.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 24/05/1397 11:01:55 ب.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 24/05/1397 11:02:02 ب.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 24/05/1397 11:02:07 ب.ظ
+	GET /api/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 25/05/1397 04:17:43 ق.ظ
+	GET /api/admin/menu/getMenu
+	500 A task was canceled.
+
+* 25/05/1397 04:17:51 ق.ظ
+	GET /api/admin/TestGroup/getTestGroupWithoutSubset
+	500 A task was canceled.
+
+* 25/05/1397 04:17:51 ق.ظ
+	GET /api/admin/branch/getAllBranchView
+	500 A task was canceled.
+
+* 25/05/1397 04:17:52 ق.ظ
+	GET /api/admin/user/getById
+	500 A task was canceled.
+
+* 25/05/1397 04:18:27 ق.ظ
+	GET /api/admin/branch/getAllBranchView
+	500 A task was canceled.
+
+* 25/05/1397 04:18:28 ق.ظ
+	GET /api/admin/TestItem/getAll
+	500 A task was canceled.
+
+* 25/05/1397 04:18:30 ق.ظ
+	GET /api/admin/TestGroup/getTestGroupWithoutSubset
+	500 A task was canceled.
+
+* 25/05/1397 04:18:30 ق.ظ
+	GET /api/admin/user/getById
+	500 A task was canceled.
+
+* 25/05/1397 04:18:30 ق.ظ
+	GET /api/admin/menu/getMenu
+	500 A task was canceled.
+
+* 25/05/1397 04:31:49 ق.ظ
+	GET /api/admin/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 25/05/1397 07:29:02 ق.ظ
+	GET /api/admin/user/getById
+	500 Object reference not set to an instance of an object.
+
+* 25/05/1397 07:32:21 ق.ظ
+	GET /api/admin/user/getById
+	500 Object reference not set to an instance of an object.
+
+* 25/05/1397 07:32:23 ق.ظ
+	GET /api/admin/branch/getAllBranchView
+	500 Object reference not set to an instance of an object.
+
+* 25/05/1397 04:36:37 ب.ظ
+	GET /api/admin/user/getById
+	500 Object reference not set to an instance of an object.
+
+* 25/05/1397 04:38:26 ب.ظ
+	GET /api/admin/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 25/05/1397 04:38:26 ب.ظ
+	GET /api/admin/user/getById
+	500 Object reference not set to an instance of an object.
+
+* 25/05/1397 04:38:26 ب.ظ
+	GET /api/admin/branch/getAllBranchView
+	500 Object reference not set to an instance of an object.
+
+* 25/05/1397 04:38:27 ب.ظ
+	GET /api/admin/TestItem/getWaiteForAccept
+	500 Object reference not set to an instance of an object.
+
+* 25/05/1397 04:39:27 ب.ظ
+	GET /api/admin/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 25/05/1397 04:45:20 ب.ظ
+	GET /api/admin/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 25/05/1397 04:45:20 ب.ظ
+	GET /api/admin/user/getById
+	500 Object reference not set to an instance of an object.
+
+* 25/05/1397 04:47:51 ب.ظ
+	GET /api/admin/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 25/05/1397 04:58:29 ب.ظ
+	GET /api/admin/menu/getMenu
+	500 A task was canceled.
+
+* 25/05/1397 04:58:29 ب.ظ
+	GET /api/admin/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 25/05/1397 04:58:29 ب.ظ
+	GET /api/admin/user/getById
+	500 A task was canceled.
+
+* 25/05/1397 04:58:29 ب.ظ
+	GET /api/admin/menu/getMenu
+	500 A task was canceled.
+
+* 25/05/1397 04:58:30 ب.ظ
+	GET /api/admin/user/getById
+	500 A task was canceled.
+
+* 25/05/1397 04:58:45 ب.ظ
+	GET /api/admin/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 25/05/1397 04:59:09 ب.ظ
+	GET /api/admin/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 25/05/1397 05:06:05 ب.ظ
+	GET /api/admin/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 25/05/1397 05:20:09 ب.ظ
+	GET /api/admin/user/getById
+	500 Object reference not set to an instance of an object.
+
+* 25/05/1397 05:30:56 ب.ظ
+	GET /api/admin/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 25/05/1397 05:30:56 ب.ظ
+	GET /api/admin/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 25/05/1397 05:30:56 ب.ظ
+	GET /api/admin/user/getById
+	500 Object reference not set to an instance of an object.
+
+* 25/05/1397 05:30:56 ب.ظ
+	GET /api/admin/user/getById
+	500 Object reference not set to an instance of an object.
+
+* 25/05/1397 05:31:03 ب.ظ
+	GET /api/admin/menu/getMenu
+	500 A task was canceled.
+
+* 25/05/1397 05:31:36 ب.ظ
+	GET /api/admin/user/getById
+	500 Object reference not set to an instance of an object.
+
+* 25/05/1397 05:37:59 ب.ظ
+	GET /api/admin/user/getById
+	500 Object reference not set to an instance of an object.
+
+* 25/05/1397 05:38:30 ب.ظ
+	GET /api/admin/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 25/05/1397 05:45:56 ب.ظ
+	GET /api/admin/user/getById
+	500 Object reference not set to an instance of an object.
+
+* 25/05/1397 11:12:25 ب.ظ
+	GET /api/admin/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 25/05/1397 11:27:57 ب.ظ
+	GET /api/admin/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 25/05/1397 11:30:13 ب.ظ
+	GET /api/admin/user/getById
+	500 Object reference not set to an instance of an object.
+
+* 25/05/1397 11:38:36 ب.ظ
+	GET /api/admin/user/getById
+	500 Object reference not set to an instance of an object.
+
+* 25/05/1397 11:38:36 ب.ظ
+	GET /api/admin/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 25/05/1397 11:39:42 ب.ظ
+	GET /api/admin/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 25/05/1397 11:39:54 ب.ظ
+	GET /api/admin/user/getById
+	500 Object reference not set to an instance of an object.
+
+* 25/05/1397 11:40:50 ب.ظ
+	GET /api/admin/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 25/05/1397 11:41:09 ب.ظ
+	GET /api/admin/user/getById
+	500 Object reference not set to an instance of an object.
+
+* 25/05/1397 11:41:09 ب.ظ
+	GET /api/admin/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 25/05/1397 11:41:19 ب.ظ
+	GET /api/admin/user/getById
+	500 Object reference not set to an instance of an object.
+
+* 25/05/1397 11:43:16 ب.ظ
+	GET /api/admin/user/getById
+	500 Object reference not set to an instance of an object.
+
+* 25/05/1397 11:43:21 ب.ظ
+	GET /api/admin/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 25/05/1397 11:45:03 ب.ظ
+	GET /api/admin/user/getById
+	500 Object reference not set to an instance of an object.
+
+* 25/05/1397 11:45:03 ب.ظ
+	GET /api/admin/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 25/05/1397 11:46:36 ب.ظ
+	GET /api/admin/user/getById
+	500 Object reference not set to an instance of an object.
+
+* 25/05/1397 11:46:49 ب.ظ
+	GET /api/admin/user/getById
+	500 Object reference not set to an instance of an object.
+
+* 25/05/1397 11:46:54 ب.ظ
+	GET /api/admin/user/getById
+	500 Object reference not set to an instance of an object.
+
+* 25/05/1397 11:46:58 ب.ظ
+	GET /api/admin/user/getById
+	500 A task was canceled.
+
+* 25/05/1397 11:46:58 ب.ظ
+	GET /api/admin/user/getById
+	500 Object reference not set to an instance of an object.
+
+* 25/05/1397 11:47:02 ب.ظ
+	GET /api/admin/user/getById
+	500 Object reference not set to an instance of an object.
+
+* 25/05/1397 11:47:06 ب.ظ
+	GET /api/admin/user/getById
+	500 Object reference not set to an instance of an object.
+
+* 25/05/1397 11:47:09 ب.ظ
+	GET /api/admin/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 25/05/1397 11:47:14 ب.ظ
+	GET /api/admin/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 25/05/1397 11:47:17 ب.ظ
+	GET /api/admin/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 25/05/1397 11:47:30 ب.ظ
+	GET /api/admin/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 25/05/1397 11:47:30 ب.ظ
+	GET /api/admin/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 25/05/1397 11:47:30 ب.ظ
+	GET /api/admin/user/getById
+	500 Object reference not set to an instance of an object.
+
+* 25/05/1397 11:47:41 ب.ظ
+	GET /api/admin/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 25/05/1397 11:49:23 ب.ظ
+	GET /api/admin/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 25/05/1397 11:50:02 ب.ظ
+	GET /api/admin/user/getById
+	500 Object reference not set to an instance of an object.
+
+* 26/05/1397 12:25:34 ق.ظ
+	GET /api/admin/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 26/05/1397 08:29:51 ق.ظ
+	GET /api/admin/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 26/05/1397 10:27:26 ق.ظ
+	GET /api/admin/branch/getAllBranchView
+	500 Object reference not set to an instance of an object.
+
+* 26/05/1397 10:27:38 ق.ظ
+	GET /api/admin/role/getAll
+	500 Processing of the HTTP request resulted in an exception. Please see the HTTP response returned by the 'Response' property of this exception for details.
+
+* 26/05/1397 10:27:43 ق.ظ
+	GET /api/admin/role/getAll
+	500 Processing of the HTTP request resulted in an exception. Please see the HTTP response returned by the 'Response' property of this exception for details.
+
+* 26/05/1397 10:27:43 ق.ظ
+	GET /api/admin/branch/getAllBranchView
+	500 Object reference not set to an instance of an object.
+
+* 26/05/1397 10:27:51 ق.ظ
+	GET /api/admin/role/getAll
+	500 Processing of the HTTP request resulted in an exception. Please see the HTTP response returned by the 'Response' property of this exception for details.
+
+* 26/05/1397 10:28:11 ق.ظ
+	GET /api/admin/role/getAll
+	500 Processing of the HTTP request resulted in an exception. Please see the HTTP response returned by the 'Response' property of this exception for details.
+
+* 26/05/1397 10:28:11 ق.ظ
+	GET /api/admin/user/getById
+	500 Object reference not set to an instance of an object.
+
+* 26/05/1397 10:28:11 ق.ظ
+	GET /api/admin/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 26/05/1397 12:36:15 ب.ظ
+	GET /api/admin/user/getAllView
+	500 A task was canceled.
+
+* 29/05/1397 07:37:38 ق.ظ
+	POST /api/weblogin/authentication
+	500 Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+* 29/05/1397 07:38:39 ق.ظ
+	POST /api/weblogin/authentication
+	500 Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+* 29/05/1397 07:38:59 ق.ظ
+	POST /api/weblogin/authentication
+	500 Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+* 29/05/1397 08:21:17 ق.ظ
+	POST /api/weblogin/authentication
+	500 Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+* 01/06/1397 02:36:55 ق.ظ
+	POST /api/weblogin/authentication
+	500 Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+* 01/06/1397 08:26:35 ق.ظ
+	POST /api/weblogin/authentication
+	500 Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+* 03/06/1397 05:22:37 ق.ظ
+	GET /api/admin/TestItem/getAll
+	500 Object reference not set to an instance of an object.
+
+* 03/06/1397 05:37:56 ق.ظ
+	GET /api/webmenu/getMenuApplicant
+	500 A task was canceled.
+
+* 03/06/1397 08:49:43 ق.ظ
+	POST /api/weblogin/authentication
+	500 Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+* 05/06/1397 09:18:12 ق.ظ
+	GET /api/admin/user/getById
+	500 Object reference not set to an instance of an object.
+
+* 05/06/1397 09:55:19 ق.ظ
+	POST /api/weblogin/authentication
+	500 Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+* 10/06/1397 05:27:28 ق.ظ
+	POST /api/weblogin/authentication
+	500 Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+* 15/06/1397 05:05:57 ق.ظ
+	GET /api/webmenu/getMenuApplicant
+	500 A task was canceled.
+
+* 15/06/1397 06:15:41 ق.ظ
+	GET /api/webmenu/getMenuApplicant
+	500 A task was canceled.
+
+* 16/06/1397 01:02:06 ق.ظ
+	GET /api/webTestGroup/getTestGroupWithItems
+	500 A task was canceled.
+
+* 16/06/1397 04:24:57 ق.ظ
+	GET /api/webuser/getById
+	500 A task was canceled.
+
+* 16/06/1397 04:24:58 ق.ظ
+	GET /api/webmenu/getMenuApplicant
+	500 A task was canceled.
+
+* 17/06/1397 08:15:39 ق.ظ
+	GET /api/admin/branch/getAllBranchView
+	500 Object reference not set to an instance of an object.
+
+* 17/06/1397 01:35:37 ب.ظ
+	POST /api/weblogin/authentication
+	500 Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+* 17/06/1397 01:35:51 ب.ظ
+	POST /api/weblogin/authentication
+	500 Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+* 17/06/1397 01:36:40 ب.ظ
+	POST /api/weblogin/authentication
+	500 Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+* 17/06/1397 01:37:02 ب.ظ
+	POST /api/weblogin/authentication
+	500 Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+* 17/06/1397 01:37:16 ب.ظ
+	POST /api/weblogin/authentication
+	500 Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+* 17/06/1397 01:37:36 ب.ظ
+	POST /api/weblogin/authentication
+	500 Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+* 17/06/1397 01:40:45 ب.ظ
+	POST /api/weblogin/authentication
+	500 Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+* 17/06/1397 01:44:00 ب.ظ
+	GET /api/webrule/ExportFile?TestId=13
+	500 Object reference not set to an instance of an object.
+
+* 17/06/1397 01:56:06 ب.ظ
+	GET /api/webrule/ExportFile?TestId=13
+	500 Object reference not set to an instance of an object.
+
+* 17/06/1397 01:57:09 ب.ظ
+	GET /api/webrule/ExportFile?TestId=1
+	500 A task was canceled.
+
+* 17/06/1397 02:09:16 ب.ظ
+	GET /api/webrule/ExportFile?TestId=1
+	500 Object reference not set to an instance of an object.
+
+* 17/06/1397 02:12:16 ب.ظ
+	GET /api/webrule/ExportFile?TestId=1
+	500 Object reference not set to an instance of an object.
+
+* 17/06/1397 02:14:01 ب.ظ
+	GET /api/webrule/ExportFile?TestId=1
+	500 Object reference not set to an instance of an object.
+
+* 17/06/1397 02:19:36 ب.ظ
+	GET /api/webrule/ExportFile?TestId=1
+	500 Object reference not set to an instance of an object.
+
+* 18/06/1397 05:42:39 ق.ظ
+	GET /api/webrule/ExportFile?TestId=1
+	500 A task was canceled.
+
+* 18/06/1397 05:44:14 ق.ظ
+	GET /api/webrule/ExportFile?TestId=1
+	500 A task was canceled.
+
+* 18/06/1397 05:46:04 ق.ظ
+	GET /api/webrule/ExportFile?TestId=2
+	500 A task was canceled.
+
+* 18/06/1397 05:46:41 ق.ظ
+	GET /api/webrule/ExportFile?TestId=2
+	500 A task was canceled.
+
+* 18/06/1397 05:47:11 ق.ظ
+	GET /api/webrule/ExportFile?TestId=2
+	500 A task was canceled.
+
+* 18/06/1397 05:47:34 ق.ظ
+	GET /api/webrule/ExportFile?TestId=1
+	500 A task was canceled.
+
+* 19/06/1397 08:33:25 ق.ظ
+	POST /api/weblogin/authentication
+	500 Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+* 19/06/1397 02:00:16 ب.ظ
+	POST /api/weblogin/authentication
+	500 Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+* 19/06/1397 02:00:30 ب.ظ
+	POST /api/weblogin/authentication
+	500 Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+* 19/06/1397 02:00:30 ب.ظ
+	POST /api/weblogin/authentication
+	500 Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+* 19/06/1397 02:00:30 ب.ظ
+	POST /api/weblogin/authentication
+	500 Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+* 19/06/1397 02:00:32 ب.ظ
+	POST /api/weblogin/authentication
+	500 Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+* 19/06/1397 02:00:32 ب.ظ
+	POST /api/weblogin/authentication
+	500 Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+* 19/06/1397 02:00:55 ب.ظ
+	POST /api/weblogin/authentication
+	500 Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+* 20/06/1397 07:55:27 ق.ظ
+	POST /api/weblogin/authentication
+	500 Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+* 20/06/1397 07:55:34 ق.ظ
+	POST /api/weblogin/authentication
+	500 Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+* 20/06/1397 07:55:48 ق.ظ
+	POST /api/weblogin/authentication
+	500 Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+* 20/06/1397 08:45:00 ق.ظ
+	POST /api/weblogin/authentication
+	500 Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+* 20/06/1397 08:45:08 ق.ظ
+	POST /api/weblogin/authentication
+	500 Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+* 20/06/1397 08:45:14 ق.ظ
+	POST /api/weblogin/authentication
+	500 Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+* 20/06/1397 08:45:14 ق.ظ
+	POST /api/weblogin/authentication
+	500 Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+* 20/06/1397 08:45:14 ق.ظ
+	POST /api/weblogin/authentication
+	500 Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+* 20/06/1397 08:45:14 ق.ظ
+	POST /api/weblogin/authentication
+	500 Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+* 20/06/1397 08:45:37 ق.ظ
+	POST /api/weblogin/authentication
+	500 Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+* 20/06/1397 08:47:54 ق.ظ
+	POST /api/weblogin/authentication
+	500 Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+* 20/06/1397 08:48:09 ق.ظ
+	POST /api/weblogin/authentication
+	500 Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+* 20/06/1397 08:51:22 ق.ظ
+	POST /api/weblogin/authentication
+	500 Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+* 20/06/1397 08:51:31 ق.ظ
+	POST /api/weblogin/authentication
+	500 Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+* 20/06/1397 08:52:55 ق.ظ
+	POST /api/weblogin/authentication
+	500 Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+* 20/06/1397 08:53:04 ق.ظ
+	POST /api/weblogin/authentication
+	500 Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+* 20/06/1397 08:53:31 ق.ظ
+	POST /api/weblogin/authentication
+	500 Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+* 20/06/1397 08:53:55 ق.ظ
+	POST /api/weblogin/authentication
+	500 Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+* 23/06/1397 09:48:15 ق.ظ
+	POST /api/weblogin/authentication
+	500 Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+* 25/06/1397 06:08:32 ق.ظ
+	GET /api/admin/user/getById
+	500 Object reference not set to an instance of an object.
+
+* 25/06/1397 06:34:27 ق.ظ
+	GET /api/webTestGroup/getTestGroupWithItems
+	500 Object reference not set to an instance of an object.
+
+* 25/06/1397 06:34:30 ق.ظ
+	GET /api/webmenu/getMenuApplicant
+	500 Object reference not set to an instance of an object.
+
+* 25/06/1397 06:34:30 ق.ظ
+	GET /api/webuser/getById
+	500 Object reference not set to an instance of an object.
+
+* 26/06/1397 07:38:12 ق.ظ
+	POST /api/weblogin/authentication
+	500 Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+* 26/06/1397 07:39:11 ق.ظ
+	POST /api/weblogin/authentication
+	500 Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+* 31/06/1397 01:49:10 ق.ظ
+	GET /api/webmenu/getMenuApplicant
+	500 A task was canceled.
+
+* 01/07/1397 05:25:33 ق.ظ
+	GET /api/webmenu/getMenuApplicant
+	500 Object reference not set to an instance of an object.
+
+* 01/07/1397 05:41:08 ق.ظ
+	POST /api/weblogin/authentication
+	500 Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+* 01/07/1397 08:26:26 ق.ظ
+	GET /api/webprovince/getAll
+	500 A task was canceled.
+
+* 01/07/1397 08:26:26 ق.ظ
+	GET /api/webTestGroup/GetTestGroupRoot
+	500 A task was canceled.
+
+* 04/07/1397 07:52:57 ق.ظ
+	POST /api/weblogin/authentication
+	500 Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+* 10/07/1397 08:24:35 ق.ظ
+	GET /api/webTestItem/getHoldingDateByTestGroupId?TestGroupId=4&ProvinceId=undefined&CityId=undefined
+	500 A task was canceled.
+
+* 10/07/1397 09:13:39 ق.ظ
+	POST /api/weblogin/authentication
+	500 Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+* 17/07/1397 07:54:50 ق.ظ
+	GET /api/webmenu/getMenuApplicant
+	500 Object reference not set to an instance of an object.
+
+* 17/07/1397 07:54:50 ق.ظ
+	GET /api/webuser/getById
+	500 Object reference not set to an instance of an object.
+
+* 19/07/1397 03:04:08 ق.ظ
+	GET /api/webTestGroup/GetTestGroupRoot
+	500 A task was canceled.
+
+* 19/07/1397 03:04:10 ق.ظ
+	GET /api/webTestItem/getHoldingDateByTestGroupId?TestGroupId=4&ProvinceId=undefined&CityId=undefined
+	500 A task was canceled.
+
+* 19/07/1397 03:26:23 ق.ظ
+	GET /api/webTestItem/getHoldingDateByTestGroupId?TestGroupId=4&ProvinceId=null&CityId=null
+	500 A task was canceled.
+
+* 19/07/1397 04:08:27 ق.ظ
+	POST /api/weblogin/authentication
+	500 Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+* 29/07/1397 07:52:59 ق.ظ
+	GET /api/admin/user/getById
+	500 A task was canceled.
+
+* 29/07/1397 07:53:07 ق.ظ
+	GET /api/admin/testGroup/lastlevelgetallview
+	500 A task was canceled.
+
+* 29/07/1397 07:53:07 ق.ظ
+	GET /api/admin/rule/getAllView
+	500 A task was canceled.
+
+* 29/07/1397 07:53:08 ق.ظ
+	GET /api/admin/user/getById
+	500 A task was canceled.
+
+* 29/07/1397 07:53:08 ق.ظ
+	GET /api/admin/ruleAssignment/getAllView
+	500 A task was canceled.
+
+* 30/07/1397 09:09:51 ق.ظ
+	GET /api/webmenu/getMenuApplicant
+	500 Object reference not set to an instance of an object.
+
+* 06/08/1397 08:15:17 ق.ظ
+	GET /api/WebPayment/getPaymentByUserId
+	500 A task was canceled.
+
+* 06/08/1397 08:15:34 ق.ظ
+	GET /api/webTestGroup/GetTestGroupRoot
+	500 A task was canceled.
+
+* 06/08/1397 08:15:34 ق.ظ
+	GET /api/WebPayment/getPaymentByUserId
+	500 A task was canceled.
+
+* 06/08/1397 08:15:34 ق.ظ
+	GET /api/webmenu/getMenuApplicant
+	500 A task was canceled.
+
+* 09/08/1397 09:09:11 ق.ظ
+	GET /api/admin/user/getById
+	500 Object reference not set to an instance of an object.
+
+* 09/08/1397 10:33:44 ق.ظ
+	GET /api/admin/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 10/08/1397 04:18:13 ق.ظ
+	POST /api/weblogin/authentication
+	500 Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+* 11/2/2018 6:29:49 AM
+	GET /api/admin/Registeration/exportTestRegisteredByBranch?BranchId=2
+	500 Object reference not set to an instance of an object.
+
+* 11/2/2018 6:31:33 AM
+	GET /api/admin/Registeration/exportTestRegisteredByBranch?BranchId=2
+	500 Object reference not set to an instance of an object.
+
+* 11/2/2018 6:33:11 AM
+	GET /api/admin/Registeration/exportTestRegisteredByBranch?BranchId=2
+	500 Object reference not set to an instance of an object.
+
+* 11/2/2018 6:57:36 AM
+	GET /api/admin/Registeration/exportTestRegisteredByBranch?BranchId=2
+	500 Object reference not set to an instance of an object.
+
+* 11/2/2018 6:59:20 AM
+	GET /api/admin/Registeration/exportTestRegisteredByBranch?BranchId=2
+	500 Object reference not set to an instance of an object.
+
+* 11/2/2018 7:07:17 AM
+	GET /api/admin/Registeration/exportTestRegisteredByBranch?BranchId=2
+	500 Object reference not set to an instance of an object.
+
+* 11/2/2018 7:13:47 AM
+	GET /api/admin/Registeration/exportTestRegisteredByBranch?BranchId=2
+	500 Object reference not set to an instance of an object.
+
+* 11/2/2018 7:16:24 AM
+	GET /api/admin/Registeration/exportTestRegisteredByBranch?BranchId=2
+	500 Object reference not set to an instance of an object.
+
+* 11/2/2018 7:17:21 AM
+	GET /api/admin/Registeration/exportTestRegisteredByBranch?BranchId=2
+	500 Object reference not set to an instance of an object.
+
+* 11/2/2018 7:18:51 AM
+	GET /api/admin/Registeration/exportTestRegisteredByBranch?BranchId=2
+	500 Object reference not set to an instance of an object.
+
+* 11/2/2018 7:20:55 AM
+	GET /api/admin/Registeration/exportTestRegisteredByBranch?BranchId=2
+	500 Object reference not set to an instance of an object.
+
+* 11/2/2018 7:23:50 AM
+	GET /api/admin/Registeration/exportTestRegisteredByBranch?BranchId=2
+	500 Object reference not set to an instance of an object.
+
+* 11/2/2018 9:00:21 AM
+	GET /api/admin/Registeration/exportTestRegisteredByBranch?BranchId=2
+	500 Object reference not set to an instance of an object.
+
+* 11/2/2018 9:12:01 AM
+	GET /api/admin/Registeration/exportTestRegisteredByBranch?BranchId=2
+	500 Object reference not set to an instance of an object.
+
+* 11/2/2018 9:15:59 AM
+	GET /api/admin/Registeration/exportTestRegisteredByBranch?BranchId=2
+	500 Object reference not set to an instance of an object.
+
+* 11/2/2018 9:40:11 AM
+	GET /api/admin/Registeration/exportTestRegisteredByBranch?BranchId=2
+	500 Object reference not set to an instance of an object.
+
+* 11/2/2018 10:10:20 AM
+	GET /api/admin/user/getById
+	500 Object reference not set to an instance of an object.
+
+* 11/2/2018 11:52:30 AM
+	GET /api/admin/export/exportTestRegisteredByBranch?BranchId=2
+	500 Object reference not set to an instance of an object.
+
+* 11/2/2018 11:59:20 AM
+	GET /api/admin/export/exportTestRegisteredByBranch?BranchId=2
+	500 Object reference not set to an instance of an object.
+
+* 11/2/2018 11:59:59 AM
+	GET /api/admin/export/exportTestRegisteredByBranch?BranchId=2
+	500 A task was canceled.
+
+* 11/2/2018 12:00:32 PM
+	GET /api/admin/export/exportTestRegisteredByBranch?BranchId=2
+	500 Object reference not set to an instance of an object.
+
+* 11/2/2018 12:04:25 PM
+	GET /api/admin/export/exportTestRegisteredByBranch?BranchId=2
+	500 Object reference not set to an instance of an object.
+
+* 11/2/2018 12:04:48 PM
+	GET /api/admin/export/exportTestRegisteredByBranch?BranchId=2
+	500 Object reference not set to an instance of an object.
+
+* 11/2/2018 12:13:52 PM
+	GET /api/admin/export/exportTestRegisteredByBranch?BranchId=2
+	500 Object reference not set to an instance of an object.
+
+* 11/6/2018 6:08:19 AM
+	POST /api/weblogin/authentication
+	500 Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+* 11/8/2018 10:37:46 AM
+	POST /api/admin/user/update
+	500 Object reference not set to an instance of an object.
+
+* 11/9/2018 7:44:59 AM
+	POST /api/webuser/UpdateApplicant
+	500 Object reference not set to an instance of an object.
+
+* 11/10/2018 5:05:59 AM
+	POST /api/weblogin/authentication
+	500 Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+* 11/10/2018 5:29:48 AM
+	POST /api/weblogin/authentication
+	500 Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+* 11/15/2018 3:37:11 AM
+	GET /api/admin/branch/getAllBranchView
+	500 A task was canceled.
+
+* 11/15/2018 4:12:15 AM
+	POST /api/weblogin/authentication
+	500 Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+* 11/15/2018 4:12:34 AM
+	POST /api/weblogin/authentication
+	500 Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+* 11/15/2018 4:14:47 AM
+	POST /api/weblogin/authentication
+	500 Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+* 11/15/2018 4:22:04 AM
+	POST /api/weblogin/authentication
+	500 Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+* 11/15/2018 4:32:33 AM
+	POST /api/weblogin/authentication
+	500 Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+* 11/15/2018 4:33:00 AM
+	POST /api/weblogin/authentication
+	500 Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+* 11/15/2018 4:33:44 AM
+	POST /api/weblogin/authentication
+	500 Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+* 11/15/2018 7:19:25 AM
+	POST /api/weblogin/authentication
+	500 Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+* 11/20/2018 1:15:14 PM
+	GET /api/admin/user/getById
+	500 Object reference not set to an instance of an object.
+
+* 11/22/2018 2:47:55 AM
+	POST /api/weblogin/authentication
+	500 Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+* 11/22/2018 2:49:11 AM
+	POST /api/weblogin/authentication
+	500 Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+* 11/22/2018 2:50:40 AM
+	GET /api/webrule/ExportFile?TestId=21
+	500 Object reference not set to an instance of an object.
+
+* 11/22/2018 2:50:49 AM
+	GET /api/webrule/ExportFile?TestId=21
+	500 Object reference not set to an instance of an object.
+
+* 11/22/2018 2:50:54 AM
+	GET /api/webrule/ExportFile?TestId=21
+	500 A task was canceled.
+
+* 11/22/2018 2:50:58 AM
+	GET /api/webrule/ExportFile?TestId=21
+	500 Object reference not set to an instance of an object.
+
+* 11/22/2018 2:51:16 AM
+	GET /api/webrule/ExportFile?TestId=21
+	500 Object reference not set to an instance of an object.
+
+* 11/22/2018 2:52:15 AM
+	GET /api/webrule/ExportFile?TestId=21
+	500 A task was canceled.
+
+* 11/22/2018 10:03:12 PM
+	GET /api/webuser/getById
+	500 Object reference not set to an instance of an object.
+
+* 11/22/2018 10:03:54 PM
+	GET /api/webrule/ExportFile?TestId=21
+	500 Object reference not set to an instance of an object.
+
+* 11/22/2018 10:04:10 PM
+	GET /api/webrule/ExportFile?TestId=23
+	500 A task was canceled.
+
+* 11/22/2018 10:04:11 PM
+	GET /api/webrule/ExportFile?TestId=21
+	500 Object reference not set to an instance of an object.
+
+* 11/22/2018 10:04:38 PM
+	GET /api/webrule/ExportFile?TestId=23
+	500 Object reference not set to an instance of an object.
+
+* 11/23/2018 12:52:08 AM
+	GET /api/webrule/ExportFile?TestId=1030
+	500 A task was canceled.
+
+* 11/23/2018 12:52:09 AM
+	GET /api/webrule/ExportFile?TestId=1030
+	500 Object reference not set to an instance of an object.
+
+* 11/23/2018 12:52:25 AM
+	GET /api/webrule/ExportFile?TestId=23
+	500 Object reference not set to an instance of an object.
+
+* 11/23/2018 10:49:06 AM
+	POST /api/weblogin/authentication
+	500 Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+* 11/26/2018 6:52:47 AM
+	POST /api/weblogin/authentication
+	500 Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+* 12/4/2018 7:22:12 AM
+	GET /api/webuser/getById
+	500 Object reference not set to an instance of an object.
+
+* 12/4/2018 7:22:13 AM
+	GET /api/webuser/getById
+	500 Object reference not set to an instance of an object.
+
+* 12/4/2018 7:22:49 AM
+	GET /api/webmenu/getMenuApplicant
+	500 A task was canceled.
+
+* 12/4/2018 8:07:08 AM
+	POST /api/weblogin/authentication
+	500 Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+* 12/13/2018 1:47:20 AM
+	GET /api/webmenu/getMenuApplicant
+	500 Object reference not set to an instance of an object.
+
+* 12/13/2018 6:13:25 AM
+	GET /api/admin/user/getById
+	500 Object reference not set to an instance of an object.
+
+* 12/13/2018 7:50:20 AM
+	GET /api/webuser/getById
+	500 Object reference not set to an instance of an object.
+
+* 12/13/2018 7:52:28 AM
+	POST /api/weblogin/authentication
+	500 Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+* 12/20/2018 1:19:27 AM
+	GET /api/admin/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 12/20/2018 1:19:27 AM
+	GET /api/admin/user/getById
+	500 Object reference not set to an instance of an object.
+
+* 12/20/2018 3:11:32 AM
+	GET /api/admin/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 12/20/2018 3:12:22 AM
+	GET /api/admin/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 12/20/2018 3:12:54 AM
+	GET /api/admin/menu/getMenu
+	500 Object reference not set to an instance of an object.
+
+* 12/20/2018 7:47:09 AM
+	POST /api/weblogin/authentication
+	500 Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+* 12/20/2018 8:54:04 AM
+	GET /api/webmenu/getMenuApplicant
+	500 A task was canceled.
+
+* 12/22/2018 7:37:12 AM
+	GET /api/webmenu/getMenuApplicant
+	500 Object reference not set to an instance of an object.
+
+* 12/24/2018 7:40:52 AM
+	GET /api/webTestItem/getForRegister?TestGroupId=89&ProvinceId=undefined&CityId=undefined&PersianHoldingDate=
+	500 A task was canceled.
+
+* 12/25/2018 12:55:11 PM
+	POST /api/weblogin/authentication
+	500 Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+* 12/25/2018 1:14:26 PM
+	GET /api/webrule/ExportFile?TestId=128
+	500 Object reference not set to an instance of an object.
+
+* 12/25/2018 1:19:24 PM
+	GET /api/webrule/ExportFile?TestId=128
+	500 Object reference not set to an instance of an object.
+
+* 12/25/2018 1:19:57 PM
+	GET /api/webrule/ExportFile?TestId=128
+	500 Object reference not set to an instance of an object.
+
+* 12/25/2018 1:20:05 PM
+	GET /api/webrule/ExportFile?TestId=128
+	500 Object reference not set to an instance of an object.
+
+* 12/25/2018 1:20:34 PM
+	GET /api/webrule/ExportFile?TestId=128
+	500 Object reference not set to an instance of an object.
+
+* 12/25/2018 1:20:43 PM
+	GET /api/webrule/ExportFile?TestId=128
+	500 Object reference not set to an instance of an object.
+
+* 12/25/2018 1:22:05 PM
+	GET /api/webrule/ExportFile?TestId=128
+	500 Object reference not set to an instance of an object.
+
+* 12/25/2018 1:28:53 PM
+	GET /api/webrule/ExportFile?TestId=128
+	500 Object reference not set to an instance of an object.
+
+* 12/25/2018 1:29:45 PM
+	GET /api/webrule/ExportFile?TestId=25
+	500 Object reference not set to an instance of an object.
+
+* 12/25/2018 1:30:22 PM
+	GET /api/webrule/ExportFile?TestId=98
+	500 Object reference not set to an instance of an object.
+
+* 12/25/2018 1:30:39 PM
+	GET /api/webrule/ExportFile?TestId=33
+	500 Object reference not set to an instance of an object.
+
+* 12/26/2018 4:58:58 AM
+	GET /api/webrule/ExportFile?TestId=33
+	500 Object reference not set to an instance of an object.
+
+* 12/26/2018 5:25:34 AM
+	GET /api/webrule/ExportFile?TestId=124
+	500 Object reference not set to an instance of an object.
+
+* 12/26/2018 5:26:38 AM
+	GET /api/webrule/ExportFile?TestId=118
+	500 Object reference not set to an instance of an object.
+
+* 12/26/2018 5:29:29 AM
+	GET /api/webrule/ExportFile?TestId=118
+	500 Object reference not set to an instance of an object.
+
+* 12/26/2018 5:29:55 AM
+	GET /api/webrule/ExportFile?TestId=118
+	500 Object reference not set to an instance of an object.
+
+* 12/26/2018 5:33:59 AM
+	GET /api/webrule/ExportFile?TestId=118
+	500 Object reference not set to an instance of an object.
+
+* 12/26/2018 8:10:30 AM
+	POST /api/weblogin/authentication
+	500 Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+* 12/26/2018 8:14:30 AM
+	POST /api/weblogin/authentication
+	500 Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+* 12/27/2018 3:22:16 AM
+	GET /api/webuser/getById
+	500 A task was canceled.
+
+* 12/27/2018 7:14:13 AM
+	GET /api/admin/branch/getAllBranchView
+	500 A task was canceled.
+
+* 12/27/2018 7:14:15 AM
+	GET /api/admin/city/getAll
+	500 A task was canceled.
+
+* 12/27/2018 7:15:07 AM
+	GET /api/admin/menu/getMenu
+	500 A task was canceled.
+
+* 12/27/2018 7:15:09 AM
+	GET /api/admin/city/getAll
+	500 A task was canceled.
+
+* 12/27/2018 7:15:09 AM
+	GET /api/admin/province/getAll
+	500 A task was canceled.
+
+* 12/27/2018 7:15:09 AM
+	GET /api/admin/branch/getAllBranchView
+	500 A task was canceled.
+
+* 12/27/2018 7:15:10 AM
+	GET /api/admin/user/getById
+	500 A task was canceled.
+
+* 12/27/2018 7:15:10 AM
+	GET /api/admin/city/getAll
+	500 A task was canceled.
+
+* 12/27/2018 11:31:27 AM
+	GET /api/admin/city/getAll
+	500 A task was canceled.
+
+* 2/4/2019 1:07:30 AM
+	GET /api/WebPayment/test
+	500 Could not find default endpoint element that references contract 'Sep.InitPayment.PaymentIFBindingSoap' in the ServiceModel client configuration section. This might be because no configuration file was found for your application, or because no endpoint element matching this contract could be found in the client element.
+
+* 2/6/2019 10:40:51 PM
+	GET /api/WebPayment/test
+	500 A task was canceled.
+
+* 2/25/2019 1:04:04 AM
+	POST /api/weblogin/authentication
+	500 Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+* 3/18/2019 5:53:17 PM
+	POST /api/StockSrv/stock
+	500 The operation was canceled.
+

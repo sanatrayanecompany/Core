@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F23CB770-FD84-4327-9568-7C0E12E00BF2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Core.Business</RootNamespace>
+    <AssemblyName>Core.Business</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Dapper, Version=1.50.4.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Dapper.1.50.4\lib\net451\Dapper.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Constants.cs" />
+    <Compile Include="StockBiz.cs" />
+    <Compile Include="Payment\HttpHelper.cs" />
+    <Compile Include="PaymentBiz.cs" />
+    <Compile Include="Service References\FanAvaServices_Mobile\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="TestItemBiz.cs" />
+    <Compile Include="TestGroupBiz.cs" />
+    <Compile Include="PayLoad.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+    <None Include="Service References\FanAvaServices_Mobile\Core.Business.FanAvaServices_Mobile.balanceCPResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\FanAvaServices_Mobile\Core.Business.FanAvaServices_Mobile.balanceOut.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\FanAvaServices_Mobile\Core.Business.FanAvaServices_Mobile.balanceResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\FanAvaServices_Mobile\Core.Business.FanAvaServices_Mobile.baseOutput.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\FanAvaServices_Mobile\Core.Business.FanAvaServices_Mobile.billInqResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\FanAvaServices_Mobile\Core.Business.FanAvaServices_Mobile.billRequestCPResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\FanAvaServices_Mobile\Core.Business.FanAvaServices_Mobile.billRequestResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\FanAvaServices_Mobile\Core.Business.FanAvaServices_Mobile.cardListOut.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\FanAvaServices_Mobile\Core.Business.FanAvaServices_Mobile.configOut.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\FanAvaServices_Mobile\Core.Business.FanAvaServices_Mobile.configResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\FanAvaServices_Mobile\Core.Business.FanAvaServices_Mobile.fundInqOut.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\FanAvaServices_Mobile\Core.Business.FanAvaServices_Mobile.fundInquiryPlainResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\FanAvaServices_Mobile\Core.Business.FanAvaServices_Mobile.fundInquiryResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\FanAvaServices_Mobile\Core.Business.FanAvaServices_Mobile.fundTransferPlainResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\FanAvaServices_Mobile\Core.Business.FanAvaServices_Mobile.fundTransferResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\FanAvaServices_Mobile\Core.Business.FanAvaServices_Mobile.getCardListResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\FanAvaServices_Mobile\Core.Business.FanAvaServices_Mobile.getCardResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\FanAvaServices_Mobile\Core.Business.FanAvaServices_Mobile.jiringBillInqOut.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\FanAvaServices_Mobile\Core.Business.FanAvaServices_Mobile.jiringBillInquiryResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\FanAvaServices_Mobile\Core.Business.FanAvaServices_Mobile.jiringBillRequestResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\FanAvaServices_Mobile\Core.Business.FanAvaServices_Mobile.loginOut.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\FanAvaServices_Mobile\Core.Business.FanAvaServices_Mobile.loginResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\FanAvaServices_Mobile\Core.Business.FanAvaServices_Mobile.paymentRequestCPResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\FanAvaServices_Mobile\Core.Business.FanAvaServices_Mobile.paymentRequestResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\FanAvaServices_Mobile\Core.Business.FanAvaServices_Mobile.refundResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\FanAvaServices_Mobile\Core.Business.FanAvaServices_Mobile.requestCPResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\FanAvaServices_Mobile\Core.Business.FanAvaServices_Mobile.requestResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\FanAvaServices_Mobile\Core.Business.FanAvaServices_Mobile.requestWithIdResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\FanAvaServices_Mobile\Core.Business.FanAvaServices_Mobile.reversalResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\FanAvaServices_Mobile\Core.Business.FanAvaServices_Mobile.settlementResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\FanAvaServices_Mobile\Core.Business.FanAvaServices_Mobile.supportCollectionResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\FanAvaServices_Mobile\Core.Business.FanAvaServices_Mobile.topupMTNCPResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\FanAvaServices_Mobile\Core.Business.FanAvaServices_Mobile.topupMTNCPSingleResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\FanAvaServices_Mobile\Core.Business.FanAvaServices_Mobile.topupMTNResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\FanAvaServices_Mobile\Core.Business.FanAvaServices_Mobile.topupMTNSingleResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\FanAvaServices_Mobile\Core.Business.FanAvaServices_Mobile.topupOut.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\FanAvaServices_Mobile\Core.Business.FanAvaServices_Mobile.topupSetavalCPResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\FanAvaServices_Mobile\Core.Business.FanAvaServices_Mobile.topupSetavalCPSingleResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\FanAvaServices_Mobile\Core.Business.FanAvaServices_Mobile.topupSetavalResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\FanAvaServices_Mobile\Core.Business.FanAvaServices_Mobile.topupSetavalSingleResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\FanAvaServices_Mobile\Core.Business.FanAvaServices_Mobile.walletBalanceResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\FanAvaServices_Mobile\Core.Business.FanAvaServices_Mobile.walletChargeResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\FanAvaServices_Mobile\Core.Business.FanAvaServices_Mobile.walletRequestResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\FanAvaServices_Mobile\Core.Business.FanAvaServices_Mobile.walletTopupMTNResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\FanAvaServices_Mobile\Core.Business.FanAvaServices_Mobile.walletTopupMTNSingleResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\FanAvaServices_Mobile\Core.Business.FanAvaServices_Mobile.walletTopupSetavalResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\FanAvaServices_Mobile\Core.Business.FanAvaServices_Mobile.walletTopupSetavalSingleResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\FanAvaServices_Mobile\mobile.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\FanAvaServices_Mobile\MobileServiceService.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Core.Model\Core.Model.csproj">
+      <Project>{3c343050-abc9-4373-9bd8-8bc62d84822c}</Project>
+      <Name>Core.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Core.Base\Core.Base.csproj">
+      <Project>{ee8790e4-4fc5-4bee-ac76-0cda603b573c}</Project>
+      <Name>Core.Base</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\FanAvaServices_Mobile\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\FanAvaServices_Mobile\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\FanAvaServices_Mobile\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\FanAvaServices_Mobile\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Website\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

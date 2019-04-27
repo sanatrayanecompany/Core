@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\Admin\Desktop\dist\Core</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="apiapp.json">
+      <publishTime>08/06/2018 07:12:44</publishTime>
+    </File>
+    <File Include="bin/config.json">
+      <publishTime>06/09/2018 06:37:12</publishTime>
+    </File>
+    <File Include="bin/Core.Business.dll">
+      <publishTime>08/06/2018 07:15:11</publishTime>
+    </File>
+    <File Include="bin/Core.Model.dll">
+      <publishTime>08/06/2018 07:15:10</publishTime>
+    </File>
+    <File Include="bin/Core.PSP.dll">
+      <publishTime>08/06/2018 07:15:12</publishTime>
+    </File>
+    <File Include="bin/Core.WebApi.dll">
+      <publishTime>08/06/2018 07:15:10</publishTime>
+    </File>
+    <File Include="bin/Dapper.dll">
+      <publishTime>11/25/2017 18:18:42</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Azure.AppService.ApiApps.Service.dll">
+      <publishTime>03/18/2015 17:02:50</publishTime>
+    </File>
+    <File Include="bin/Microsoft.IdentityModel.Logging.dll">
+      <publishTime>02/08/2018 22:16:40</publishTime>
+    </File>
+    <File Include="bin/Microsoft.IdentityModel.Tokens.dll">
+      <publishTime>02/08/2018 22:16:44</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>01/05/2012 11:08:46</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>02/18/2018 09:44:54</publishTime>
+    </File>
+    <File Include="bin/Swashbuckle.Core.dll">
+      <publishTime>02/15/2015 17:57:08</publishTime>
+    </File>
+    <File Include="bin/System.IdentityModel.Tokens.Jwt.dll">
+      <publishTime>09/11/2014 13:32:14</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.dll">
+      <publishTime>06/19/2015 23:14:56</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>02/01/2018 12:17:18</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.dll">
+      <publishTime>02/01/2018 12:17:40</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.WebHost.dll">
+      <publishTime>02/01/2018 12:19:26</publishTime>
+    </File>
+    <File Include="bin/WebActivatorEx.dll">
+      <publishTime>11/24/2014 11:18:48</publishTime>
+    </File>
+    <File Include="config.json">
+      <publishTime>06/09/2018 06:37:12</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>05/29/2018 05:54:25</publishTime>
+    </File>
+    <File Include="Metadata/deploymentTemplates/apiappconfig.azureresource.json">
+      <publishTime>08/06/2018 07:12:44</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>08/06/2018 07:12:57</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>08/06/2018 07:15:13</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

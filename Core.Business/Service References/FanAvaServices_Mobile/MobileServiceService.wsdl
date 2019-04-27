@@ -1,0 +1,759 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:wsp="http://www.w3.org/ns/ws-policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:tns="http://incomingwebchannel.hrz.jpos.org/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsp1_2="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" name="MobileServiceService" targetNamespace="http://incomingwebchannel.hrz.jpos.org/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <xsd:schema>
+      <xsd:import schemaLocation="https://nafisswitch.fanavacard.com:8443/nafis-web-4/services/mobile?xsd=1" namespace="http://incomingwebchannel.hrz.jpos.org/" />
+    </xsd:schema>
+  </types>
+  <message name="requestWithId">
+    <part name="parameters" element="tns:requestWithId" />
+  </message>
+  <message name="requestWithIdResponse">
+    <part name="parameters" element="tns:requestWithIdResponse" />
+  </message>
+  <message name="getCard">
+    <part name="parameters" element="tns:getCard" />
+  </message>
+  <message name="getCardResponse">
+    <part name="parameters" element="tns:getCardResponse" />
+  </message>
+  <message name="login">
+    <part name="parameters" element="tns:login" />
+  </message>
+  <message name="loginResponse">
+    <part name="parameters" element="tns:loginResponse" />
+  </message>
+  <message name="billInq">
+    <part name="parameters" element="tns:billInq" />
+  </message>
+  <message name="billInqResponse">
+    <part name="parameters" element="tns:billInqResponse" />
+  </message>
+  <message name="billRequest">
+    <part name="parameters" element="tns:billRequest" />
+  </message>
+  <message name="billRequestResponse">
+    <part name="parameters" element="tns:billRequestResponse" />
+  </message>
+  <message name="fundInquiry">
+    <part name="parameters" element="tns:fundInquiry" />
+  </message>
+  <message name="fundInquiryResponse">
+    <part name="parameters" element="tns:fundInquiryResponse" />
+  </message>
+  <message name="fundInquiryPlain">
+    <part name="parameters" element="tns:fundInquiryPlain" />
+  </message>
+  <message name="fundInquiryPlainResponse">
+    <part name="parameters" element="tns:fundInquiryPlainResponse" />
+  </message>
+  <message name="paymentRequest">
+    <part name="parameters" element="tns:paymentRequest" />
+  </message>
+  <message name="paymentRequestResponse">
+    <part name="parameters" element="tns:paymentRequestResponse" />
+  </message>
+  <message name="balance">
+    <part name="parameters" element="tns:balance" />
+  </message>
+  <message name="balanceResponse">
+    <part name="parameters" element="tns:balanceResponse" />
+  </message>
+  <message name="fundTransfer">
+    <part name="parameters" element="tns:fundTransfer" />
+  </message>
+  <message name="fundTransferResponse">
+    <part name="parameters" element="tns:fundTransferResponse" />
+  </message>
+  <message name="fundTransferPlain">
+    <part name="parameters" element="tns:fundTransferPlain" />
+  </message>
+  <message name="fundTransferPlainResponse">
+    <part name="parameters" element="tns:fundTransferPlainResponse" />
+  </message>
+  <message name="topupMTN">
+    <part name="parameters" element="tns:topupMTN" />
+  </message>
+  <message name="topupMTNResponse">
+    <part name="parameters" element="tns:topupMTNResponse" />
+  </message>
+  <message name="topupMTNSingle">
+    <part name="parameters" element="tns:topupMTNSingle" />
+  </message>
+  <message name="topupMTNSingleResponse">
+    <part name="parameters" element="tns:topupMTNSingleResponse" />
+  </message>
+  <message name="topupSetaval">
+    <part name="parameters" element="tns:topupSetaval" />
+  </message>
+  <message name="topupSetavalResponse">
+    <part name="parameters" element="tns:topupSetavalResponse" />
+  </message>
+  <message name="getCardList">
+    <part name="parameters" element="tns:getCardList" />
+  </message>
+  <message name="getCardListResponse">
+    <part name="parameters" element="tns:getCardListResponse" />
+  </message>
+  <message name="topupSetavalSingle">
+    <part name="parameters" element="tns:topupSetavalSingle" />
+  </message>
+  <message name="topupSetavalSingleResponse">
+    <part name="parameters" element="tns:topupSetavalSingleResponse" />
+  </message>
+  <message name="jiringBillInquiry">
+    <part name="parameters" element="tns:jiringBillInquiry" />
+  </message>
+  <message name="jiringBillInquiryResponse">
+    <part name="parameters" element="tns:jiringBillInquiryResponse" />
+  </message>
+  <message name="jiringBillRequest">
+    <part name="parameters" element="tns:jiringBillRequest" />
+  </message>
+  <message name="jiringBillRequestResponse">
+    <part name="parameters" element="tns:jiringBillRequestResponse" />
+  </message>
+  <message name="balanceCP">
+    <part name="parameters" element="tns:balanceCP" />
+  </message>
+  <message name="balanceCPResponse">
+    <part name="parameters" element="tns:balanceCPResponse" />
+  </message>
+  <message name="requestCP">
+    <part name="parameters" element="tns:requestCP" />
+  </message>
+  <message name="requestCPResponse">
+    <part name="parameters" element="tns:requestCPResponse" />
+  </message>
+  <message name="paymentRequestCP">
+    <part name="parameters" element="tns:paymentRequestCP" />
+  </message>
+  <message name="paymentRequestCPResponse">
+    <part name="parameters" element="tns:paymentRequestCPResponse" />
+  </message>
+  <message name="billRequestCP">
+    <part name="parameters" element="tns:billRequestCP" />
+  </message>
+  <message name="billRequestCPResponse">
+    <part name="parameters" element="tns:billRequestCPResponse" />
+  </message>
+  <message name="topupMTNCP">
+    <part name="parameters" element="tns:topupMTNCP" />
+  </message>
+  <message name="topupMTNCPResponse">
+    <part name="parameters" element="tns:topupMTNCPResponse" />
+  </message>
+  <message name="topupMTNCPSingle">
+    <part name="parameters" element="tns:topupMTNCPSingle" />
+  </message>
+  <message name="topupMTNCPSingleResponse">
+    <part name="parameters" element="tns:topupMTNCPSingleResponse" />
+  </message>
+  <message name="topupSetavalCP">
+    <part name="parameters" element="tns:topupSetavalCP" />
+  </message>
+  <message name="topupSetavalCPResponse">
+    <part name="parameters" element="tns:topupSetavalCPResponse" />
+  </message>
+  <message name="topupSetavalCPSingle">
+    <part name="parameters" element="tns:topupSetavalCPSingle" />
+  </message>
+  <message name="topupSetavalCPSingleResponse">
+    <part name="parameters" element="tns:topupSetavalCPSingleResponse" />
+  </message>
+  <message name="settlement">
+    <part name="parameters" element="tns:settlement" />
+  </message>
+  <message name="settlementResponse">
+    <part name="parameters" element="tns:settlementResponse" />
+  </message>
+  <message name="reversal">
+    <part name="parameters" element="tns:reversal" />
+  </message>
+  <message name="reversalResponse">
+    <part name="parameters" element="tns:reversalResponse" />
+  </message>
+  <message name="refund">
+    <part name="parameters" element="tns:refund" />
+  </message>
+  <message name="refundResponse">
+    <part name="parameters" element="tns:refundResponse" />
+  </message>
+  <message name="walletCharge">
+    <part name="parameters" element="tns:walletCharge" />
+  </message>
+  <message name="walletChargeResponse">
+    <part name="parameters" element="tns:walletChargeResponse" />
+  </message>
+  <message name="walletBalance">
+    <part name="parameters" element="tns:walletBalance" />
+  </message>
+  <message name="walletBalanceResponse">
+    <part name="parameters" element="tns:walletBalanceResponse" />
+  </message>
+  <message name="walletRequest">
+    <part name="parameters" element="tns:walletRequest" />
+  </message>
+  <message name="walletRequestResponse">
+    <part name="parameters" element="tns:walletRequestResponse" />
+  </message>
+  <message name="walletTopupMTN">
+    <part name="parameters" element="tns:walletTopupMTN" />
+  </message>
+  <message name="walletTopupMTNResponse">
+    <part name="parameters" element="tns:walletTopupMTNResponse" />
+  </message>
+  <message name="walletTopupMTNSingle">
+    <part name="parameters" element="tns:walletTopupMTNSingle" />
+  </message>
+  <message name="walletTopupMTNSingleResponse">
+    <part name="parameters" element="tns:walletTopupMTNSingleResponse" />
+  </message>
+  <message name="walletTopupSetaval">
+    <part name="parameters" element="tns:walletTopupSetaval" />
+  </message>
+  <message name="walletTopupSetavalResponse">
+    <part name="parameters" element="tns:walletTopupSetavalResponse" />
+  </message>
+  <message name="walletTopupSetavalSingle">
+    <part name="parameters" element="tns:walletTopupSetavalSingle" />
+  </message>
+  <message name="walletTopupSetavalSingleResponse">
+    <part name="parameters" element="tns:walletTopupSetavalSingleResponse" />
+  </message>
+  <message name="supportCollection">
+    <part name="parameters" element="tns:supportCollection" />
+  </message>
+  <message name="supportCollectionResponse">
+    <part name="parameters" element="tns:supportCollectionResponse" />
+  </message>
+  <message name="request">
+    <part name="parameters" element="tns:request" />
+  </message>
+  <message name="requestResponse">
+    <part name="parameters" element="tns:requestResponse" />
+  </message>
+  <message name="config">
+    <part name="parameters" element="tns:config" />
+  </message>
+  <message name="configResponse">
+    <part name="parameters" element="tns:configResponse" />
+  </message>
+  <portType name="ISoapMobile">
+    <operation name="requestWithId">
+      <input wsam:Action="http://incomingwebchannel.hrz.jpos.org/ISoapMobile/requestWithIdRequest" message="tns:requestWithId" />
+      <output wsam:Action="http://incomingwebchannel.hrz.jpos.org/ISoapMobile/requestWithIdResponse" message="tns:requestWithIdResponse" />
+    </operation>
+    <operation name="getCard">
+      <input wsam:Action="http://incomingwebchannel.hrz.jpos.org/ISoapMobile/getCardRequest" message="tns:getCard" />
+      <output wsam:Action="http://incomingwebchannel.hrz.jpos.org/ISoapMobile/getCardResponse" message="tns:getCardResponse" />
+    </operation>
+    <operation name="login">
+      <input wsam:Action="http://incomingwebchannel.hrz.jpos.org/ISoapMobile/loginRequest" message="tns:login" />
+      <output wsam:Action="http://incomingwebchannel.hrz.jpos.org/ISoapMobile/loginResponse" message="tns:loginResponse" />
+    </operation>
+    <operation name="billInq">
+      <input wsam:Action="http://incomingwebchannel.hrz.jpos.org/ISoapMobile/billInqRequest" message="tns:billInq" />
+      <output wsam:Action="http://incomingwebchannel.hrz.jpos.org/ISoapMobile/billInqResponse" message="tns:billInqResponse" />
+    </operation>
+    <operation name="billRequest">
+      <input wsam:Action="http://incomingwebchannel.hrz.jpos.org/ISoapMobile/billRequestRequest" message="tns:billRequest" />
+      <output wsam:Action="http://incomingwebchannel.hrz.jpos.org/ISoapMobile/billRequestResponse" message="tns:billRequestResponse" />
+    </operation>
+    <operation name="fundInquiry">
+      <input wsam:Action="http://incomingwebchannel.hrz.jpos.org/ISoapMobile/fundInquiryRequest" message="tns:fundInquiry" />
+      <output wsam:Action="http://incomingwebchannel.hrz.jpos.org/ISoapMobile/fundInquiryResponse" message="tns:fundInquiryResponse" />
+    </operation>
+    <operation name="fundInquiryPlain">
+      <input wsam:Action="http://incomingwebchannel.hrz.jpos.org/ISoapMobile/fundInquiryPlainRequest" message="tns:fundInquiryPlain" />
+      <output wsam:Action="http://incomingwebchannel.hrz.jpos.org/ISoapMobile/fundInquiryPlainResponse" message="tns:fundInquiryPlainResponse" />
+    </operation>
+    <operation name="paymentRequest">
+      <input wsam:Action="http://incomingwebchannel.hrz.jpos.org/ISoapMobile/paymentRequestRequest" message="tns:paymentRequest" />
+      <output wsam:Action="http://incomingwebchannel.hrz.jpos.org/ISoapMobile/paymentRequestResponse" message="tns:paymentRequestResponse" />
+    </operation>
+    <operation name="balance">
+      <input wsam:Action="http://incomingwebchannel.hrz.jpos.org/ISoapMobile/balanceRequest" message="tns:balance" />
+      <output wsam:Action="http://incomingwebchannel.hrz.jpos.org/ISoapMobile/balanceResponse" message="tns:balanceResponse" />
+    </operation>
+    <operation name="fundTransfer">
+      <input wsam:Action="http://incomingwebchannel.hrz.jpos.org/ISoapMobile/fundTransferRequest" message="tns:fundTransfer" />
+      <output wsam:Action="http://incomingwebchannel.hrz.jpos.org/ISoapMobile/fundTransferResponse" message="tns:fundTransferResponse" />
+    </operation>
+    <operation name="fundTransferPlain">
+      <input wsam:Action="http://incomingwebchannel.hrz.jpos.org/ISoapMobile/fundTransferPlainRequest" message="tns:fundTransferPlain" />
+      <output wsam:Action="http://incomingwebchannel.hrz.jpos.org/ISoapMobile/fundTransferPlainResponse" message="tns:fundTransferPlainResponse" />
+    </operation>
+    <operation name="topupMTN">
+      <input wsam:Action="http://incomingwebchannel.hrz.jpos.org/ISoapMobile/topupMTNRequest" message="tns:topupMTN" />
+      <output wsam:Action="http://incomingwebchannel.hrz.jpos.org/ISoapMobile/topupMTNResponse" message="tns:topupMTNResponse" />
+    </operation>
+    <operation name="topupMTNSingle">
+      <input wsam:Action="http://incomingwebchannel.hrz.jpos.org/ISoapMobile/topupMTNSingleRequest" message="tns:topupMTNSingle" />
+      <output wsam:Action="http://incomingwebchannel.hrz.jpos.org/ISoapMobile/topupMTNSingleResponse" message="tns:topupMTNSingleResponse" />
+    </operation>
+    <operation name="topupSetaval">
+      <input wsam:Action="http://incomingwebchannel.hrz.jpos.org/ISoapMobile/topupSetavalRequest" message="tns:topupSetaval" />
+      <output wsam:Action="http://incomingwebchannel.hrz.jpos.org/ISoapMobile/topupSetavalResponse" message="tns:topupSetavalResponse" />
+    </operation>
+    <operation name="getCardList">
+      <input wsam:Action="http://incomingwebchannel.hrz.jpos.org/ISoapMobile/getCardListRequest" message="tns:getCardList" />
+      <output wsam:Action="http://incomingwebchannel.hrz.jpos.org/ISoapMobile/getCardListResponse" message="tns:getCardListResponse" />
+    </operation>
+    <operation name="topupSetavalSingle">
+      <input wsam:Action="http://incomingwebchannel.hrz.jpos.org/ISoapMobile/topupSetavalSingleRequest" message="tns:topupSetavalSingle" />
+      <output wsam:Action="http://incomingwebchannel.hrz.jpos.org/ISoapMobile/topupSetavalSingleResponse" message="tns:topupSetavalSingleResponse" />
+    </operation>
+    <operation name="jiringBillInquiry">
+      <input wsam:Action="http://incomingwebchannel.hrz.jpos.org/ISoapMobile/jiringBillInquiryRequest" message="tns:jiringBillInquiry" />
+      <output wsam:Action="http://incomingwebchannel.hrz.jpos.org/ISoapMobile/jiringBillInquiryResponse" message="tns:jiringBillInquiryResponse" />
+    </operation>
+    <operation name="jiringBillRequest">
+      <input wsam:Action="http://incomingwebchannel.hrz.jpos.org/ISoapMobile/jiringBillRequestRequest" message="tns:jiringBillRequest" />
+      <output wsam:Action="http://incomingwebchannel.hrz.jpos.org/ISoapMobile/jiringBillRequestResponse" message="tns:jiringBillRequestResponse" />
+    </operation>
+    <operation name="balanceCP">
+      <input wsam:Action="http://incomingwebchannel.hrz.jpos.org/ISoapMobile/balanceCPRequest" message="tns:balanceCP" />
+      <output wsam:Action="http://incomingwebchannel.hrz.jpos.org/ISoapMobile/balanceCPResponse" message="tns:balanceCPResponse" />
+    </operation>
+    <operation name="requestCP">
+      <input wsam:Action="http://incomingwebchannel.hrz.jpos.org/ISoapMobile/requestCPRequest" message="tns:requestCP" />
+      <output wsam:Action="http://incomingwebchannel.hrz.jpos.org/ISoapMobile/requestCPResponse" message="tns:requestCPResponse" />
+    </operation>
+    <operation name="paymentRequestCP">
+      <input wsam:Action="http://incomingwebchannel.hrz.jpos.org/ISoapMobile/paymentRequestCPRequest" message="tns:paymentRequestCP" />
+      <output wsam:Action="http://incomingwebchannel.hrz.jpos.org/ISoapMobile/paymentRequestCPResponse" message="tns:paymentRequestCPResponse" />
+    </operation>
+    <operation name="billRequestCP">
+      <input wsam:Action="http://incomingwebchannel.hrz.jpos.org/ISoapMobile/billRequestCPRequest" message="tns:billRequestCP" />
+      <output wsam:Action="http://incomingwebchannel.hrz.jpos.org/ISoapMobile/billRequestCPResponse" message="tns:billRequestCPResponse" />
+    </operation>
+    <operation name="topupMTNCP">
+      <input wsam:Action="http://incomingwebchannel.hrz.jpos.org/ISoapMobile/topupMTNCPRequest" message="tns:topupMTNCP" />
+      <output wsam:Action="http://incomingwebchannel.hrz.jpos.org/ISoapMobile/topupMTNCPResponse" message="tns:topupMTNCPResponse" />
+    </operation>
+    <operation name="topupMTNCPSingle">
+      <input wsam:Action="http://incomingwebchannel.hrz.jpos.org/ISoapMobile/topupMTNCPSingleRequest" message="tns:topupMTNCPSingle" />
+      <output wsam:Action="http://incomingwebchannel.hrz.jpos.org/ISoapMobile/topupMTNCPSingleResponse" message="tns:topupMTNCPSingleResponse" />
+    </operation>
+    <operation name="topupSetavalCP">
+      <input wsam:Action="http://incomingwebchannel.hrz.jpos.org/ISoapMobile/topupSetavalCPRequest" message="tns:topupSetavalCP" />
+      <output wsam:Action="http://incomingwebchannel.hrz.jpos.org/ISoapMobile/topupSetavalCPResponse" message="tns:topupSetavalCPResponse" />
+    </operation>
+    <operation name="topupSetavalCPSingle">
+      <input wsam:Action="http://incomingwebchannel.hrz.jpos.org/ISoapMobile/topupSetavalCPSingleRequest" message="tns:topupSetavalCPSingle" />
+      <output wsam:Action="http://incomingwebchannel.hrz.jpos.org/ISoapMobile/topupSetavalCPSingleResponse" message="tns:topupSetavalCPSingleResponse" />
+    </operation>
+    <operation name="settlement">
+      <input wsam:Action="http://incomingwebchannel.hrz.jpos.org/ISoapMobile/settlementRequest" message="tns:settlement" />
+      <output wsam:Action="http://incomingwebchannel.hrz.jpos.org/ISoapMobile/settlementResponse" message="tns:settlementResponse" />
+    </operation>
+    <operation name="reversal">
+      <input wsam:Action="http://incomingwebchannel.hrz.jpos.org/ISoapMobile/reversalRequest" message="tns:reversal" />
+      <output wsam:Action="http://incomingwebchannel.hrz.jpos.org/ISoapMobile/reversalResponse" message="tns:reversalResponse" />
+    </operation>
+    <operation name="refund">
+      <input wsam:Action="http://incomingwebchannel.hrz.jpos.org/ISoapMobile/refundRequest" message="tns:refund" />
+      <output wsam:Action="http://incomingwebchannel.hrz.jpos.org/ISoapMobile/refundResponse" message="tns:refundResponse" />
+    </operation>
+    <operation name="walletCharge">
+      <input wsam:Action="http://incomingwebchannel.hrz.jpos.org/ISoapMobile/walletChargeRequest" message="tns:walletCharge" />
+      <output wsam:Action="http://incomingwebchannel.hrz.jpos.org/ISoapMobile/walletChargeResponse" message="tns:walletChargeResponse" />
+    </operation>
+    <operation name="walletBalance">
+      <input wsam:Action="http://incomingwebchannel.hrz.jpos.org/ISoapMobile/walletBalanceRequest" message="tns:walletBalance" />
+      <output wsam:Action="http://incomingwebchannel.hrz.jpos.org/ISoapMobile/walletBalanceResponse" message="tns:walletBalanceResponse" />
+    </operation>
+    <operation name="walletRequest">
+      <input wsam:Action="http://incomingwebchannel.hrz.jpos.org/ISoapMobile/walletRequestRequest" message="tns:walletRequest" />
+      <output wsam:Action="http://incomingwebchannel.hrz.jpos.org/ISoapMobile/walletRequestResponse" message="tns:walletRequestResponse" />
+    </operation>
+    <operation name="walletTopupMTN">
+      <input wsam:Action="http://incomingwebchannel.hrz.jpos.org/ISoapMobile/walletTopupMTNRequest" message="tns:walletTopupMTN" />
+      <output wsam:Action="http://incomingwebchannel.hrz.jpos.org/ISoapMobile/walletTopupMTNResponse" message="tns:walletTopupMTNResponse" />
+    </operation>
+    <operation name="walletTopupMTNSingle">
+      <input wsam:Action="http://incomingwebchannel.hrz.jpos.org/ISoapMobile/walletTopupMTNSingleRequest" message="tns:walletTopupMTNSingle" />
+      <output wsam:Action="http://incomingwebchannel.hrz.jpos.org/ISoapMobile/walletTopupMTNSingleResponse" message="tns:walletTopupMTNSingleResponse" />
+    </operation>
+    <operation name="walletTopupSetaval">
+      <input wsam:Action="http://incomingwebchannel.hrz.jpos.org/ISoapMobile/walletTopupSetavalRequest" message="tns:walletTopupSetaval" />
+      <output wsam:Action="http://incomingwebchannel.hrz.jpos.org/ISoapMobile/walletTopupSetavalResponse" message="tns:walletTopupSetavalResponse" />
+    </operation>
+    <operation name="walletTopupSetavalSingle">
+      <input wsam:Action="http://incomingwebchannel.hrz.jpos.org/ISoapMobile/walletTopupSetavalSingleRequest" message="tns:walletTopupSetavalSingle" />
+      <output wsam:Action="http://incomingwebchannel.hrz.jpos.org/ISoapMobile/walletTopupSetavalSingleResponse" message="tns:walletTopupSetavalSingleResponse" />
+    </operation>
+    <operation name="supportCollection">
+      <input wsam:Action="http://incomingwebchannel.hrz.jpos.org/ISoapMobile/supportCollectionRequest" message="tns:supportCollection" />
+      <output wsam:Action="http://incomingwebchannel.hrz.jpos.org/ISoapMobile/supportCollectionResponse" message="tns:supportCollectionResponse" />
+    </operation>
+    <operation name="request">
+      <input wsam:Action="http://incomingwebchannel.hrz.jpos.org/ISoapMobile/requestRequest" message="tns:request" />
+      <output wsam:Action="http://incomingwebchannel.hrz.jpos.org/ISoapMobile/requestResponse" message="tns:requestResponse" />
+    </operation>
+    <operation name="config">
+      <input wsam:Action="http://incomingwebchannel.hrz.jpos.org/ISoapMobile/configRequest" message="tns:config" />
+      <output wsam:Action="http://incomingwebchannel.hrz.jpos.org/ISoapMobile/configResponse" message="tns:configResponse" />
+    </operation>
+  </portType>
+  <binding name="MobileServicePortBinding" type="tns:ISoapMobile">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <operation name="requestWithId">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getCard">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="login">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="billInq">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="billRequest">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="fundInquiry">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="fundInquiryPlain">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="paymentRequest">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="balance">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="fundTransfer">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="fundTransferPlain">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="topupMTN">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="topupMTNSingle">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="topupSetaval">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getCardList">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="topupSetavalSingle">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="jiringBillInquiry">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="jiringBillRequest">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="balanceCP">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="requestCP">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="paymentRequestCP">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="billRequestCP">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="topupMTNCP">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="topupMTNCPSingle">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="topupSetavalCP">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="topupSetavalCPSingle">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="settlement">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="reversal">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="refund">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="walletCharge">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="walletBalance">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="walletRequest">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="walletTopupMTN">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="walletTopupMTNSingle">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="walletTopupSetaval">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="walletTopupSetavalSingle">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="supportCollection">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="request">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="config">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <service name="MobileServiceService">
+    <port name="MobileServicePort" binding="tns:MobileServicePortBinding">
+      <soap:address location="https://nafisswitch.fanavacard.com:8443/nafis-web-4/services/mobile" />
+    </port>
+  </service>
+</definitions>
