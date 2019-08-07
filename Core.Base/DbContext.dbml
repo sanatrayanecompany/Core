@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="UCI_DB" Class="DbContextDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.;Initial Catalog=UCI_DB;Integrated Security=True" SettingsObjectName="Core.WebApi.Properties.Settings" SettingsPropertyName="UCI_DBConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.BillTransaction" Member="BillTransactions">
+    <Type Name="BillTransaction">
+      <Column Name="Id" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="PaymentId" Type="System.String" DbType="Char(16)" CanBeNull="true" />
+      <Column Name="BilId" Type="System.String" DbType="Char(16)" CanBeNull="true" />
+      <Column Name="Amount" Type="System.String" DbType="Char(16)" CanBeNull="true" />
+      <Column Name="RequestId" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Association Name="Request_BillTransaction" Member="Request" ThisKey="RequestId" OtherKey="Id" Type="Request" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.VoucherTransaction" Member="VoucherTransactions">
+    <Type Name="VoucherTransaction">
+      <Column Name="Id" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="OperatorId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Amount" Type="System.String" DbType="Char(16)" CanBeNull="true" />
+      <Column Name="RequestId" Type="System.Int64" DbType="BigInt NOT NULL" CanBeNull="false" />
+      <Association Name="Request_VoucherTransaction" Member="Request" ThisKey="RequestId" OtherKey="Id" Type="Request" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Customer" Member="Customers">
+    <Type Name="Customer">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="FirstName" Type="System.String" DbType="NVarChar(256) NOT NULL" CanBeNull="false" />
+      <Column Name="LastName" Type="System.String" DbType="NVarChar(256) NOT NULL" CanBeNull="false" />
+      <Association Name="Customer_MerchantInfo" Member="MerchantInfos" ThisKey="Id" OtherKey="CustomerId" Type="MerchantInfo" />
+    </Type>
+  </Table>
+  <Table Name="dbo.FundTransferTransaction" Member="FundTransferTransactions">
+    <Type Name="FundTransferTransaction">
+      <Column Name="Id" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="DestPAN" Type="System.String" DbType="Char(16)" CanBeNull="true" />
+      <Column Name="Amount" Type="System.String" DbType="Char(16)" CanBeNull="true" />
+      <Column Name="RequestId" Type="System.Int64" DbType="BigInt NOT NULL" CanBeNull="false" />
+      <Association Name="Request_FundTransferTransaction" Member="Request" ThisKey="RequestId" OtherKey="Id" Type="Request" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.MerchantInfo" Member="MerchantInfos">
+    <Type Name="MerchantInfo">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CustomerId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="localIP" Type="System.String" DbType="Char(30)" CanBeNull="true" />
+      <Column Name="merchantID" Type="System.String" DbType="Char(50)" CanBeNull="true" />
+      <Column Name="terminalID" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="invoiceNo" Type="System.String" DbType="Char(30)" CanBeNull="true" />
+      <Column Name="Serial" Type="System.String" DbType="NChar(50)" CanBeNull="true" />
+      <Column Name="Mobile" Type="System.String" DbType="NChar(11)" CanBeNull="true" />
+      <Association Name="MerchantInfo_Request" Member="Requests" ThisKey="Id" OtherKey="MerchantInfoId" Type="Request" />
+      <Association Name="Customer_MerchantInfo" Member="Customer" ThisKey="CustomerId" OtherKey="Id" Type="Customer" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.PaymentTransaction" Member="PaymentTransactions">
+    <Type Name="PaymentTransaction">
+      <Column Name="Id" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Amount" Type="System.String" DbType="Char(16)" CanBeNull="true" />
+      <Column Name="UnitId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="RequestId" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Association Name="Request_PaymentTransaction" Member="Request" ThisKey="RequestId" OtherKey="Id" Type="Request" IsForeignKey="true" />
+      <Association Name="Unit_PaymentTransaction" Member="Unit" ThisKey="UnitId" OtherKey="Id" Type="Unit" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Request" Member="Requests">
+    <Type Name="Request">
+      <Column Name="Id" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="MerchantInfoId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="PAN" Type="System.String" DbType="Char(16)" CanBeNull="true" />
+      <Column Name="RefNo" Type="System.String" DbType="Char(36)" CanBeNull="true" />
+      <Column Name="TransactionResponseId" Type="System.String" DbType="Char(30)" CanBeNull="true" />
+      <Column Name="Success" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="STAN" Type="System.String" DbType="NChar(50)" CanBeNull="true" />
+      <Association Name="Request_BillTransaction" Member="BillTransactions" ThisKey="Id" OtherKey="RequestId" Type="BillTransaction" />
+      <Association Name="Request_VoucherTransaction" Member="VoucherTransactions" ThisKey="Id" OtherKey="RequestId" Type="VoucherTransaction" />
+      <Association Name="Request_FundTransferTransaction" Member="FundTransferTransactions" ThisKey="Id" OtherKey="RequestId" Type="FundTransferTransaction" />
+      <Association Name="Request_PaymentTransaction" Member="PaymentTransactions" ThisKey="Id" OtherKey="RequestId" Type="PaymentTransaction" />
+      <Association Name="Request_TopupTransaction" Member="TopupTransactions" ThisKey="Id" OtherKey="RequestId" Type="TopupTransaction" />
+      <Association Name="MerchantInfo_Request" Member="MerchantInfo" ThisKey="MerchantInfoId" OtherKey="Id" Type="MerchantInfo" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TopupTransaction" Member="TopupTransactions">
+    <Type Name="TopupTransaction">
+      <Column Name="Id" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="OperatorId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Amount" Type="System.String" DbType="Char(16)" CanBeNull="true" />
+      <Column Name="MobileNo" Type="System.String" DbType="Char(11)" CanBeNull="true" />
+      <Column Name="RequestId" Type="System.Int64" DbType="BigInt NOT NULL" CanBeNull="false" />
+      <Association Name="Request_TopupTransaction" Member="Request" ThisKey="RequestId" OtherKey="Id" Type="Request" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TransactionMask" Member="TransactionMasks">
+    <Type Name="TransactionMask">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(256) NOT NULL" CanBeNull="false" />
+      <Column Name="Value" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TransactionResponseMask" Member="TransactionResponseMasks">
+    <Type Name="TransactionResponseMask">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(256) NOT NULL" CanBeNull="false" />
+      <Column Name="Value" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Unit" Member="Units">
+    <Type Name="Unit">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="AccountNumber" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="UnitName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="IsEnabled" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="TellNumber" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="CustomerId" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Association Name="Unit_PaymentTransaction" Member="PaymentTransactions" ThisKey="Id" OtherKey="UnitId" Type="PaymentTransaction" />
+    </Type>
+  </Table>
+</Database>

@@ -34,6 +34,7 @@
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -43,26 +44,31 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Base\Message.cs" />
-    <Compile Include="DeleteModel.cs" />
     <Compile Include="Registration\AuthInfo.cs" />
-    <Compile Include="Registration\RequestCp.cs" />
-    <Compile Include="Rule\RuleAssignment.cs" />
-    <Compile Include="TestScore\Score.cs" />
-    <Compile Include="TestCancellation\TestCancellation.cs" />
-    <Compile Include="Test\TestItem.cs" />
-    <Compile Include="Test\TestGroup.cs" />
-    <Compile Include="Rule\Rule.cs" />
-    <Compile Include="Contact.cs" />
-    <Compile Include="Security\Login.cs" />
-    <Compile Include="MeetingInfo.cs" />
-    <Compile Include="Region\City.cs" />
-    <Compile Include="Region\Branch.cs" />
-    <Compile Include="Region\Province.cs" />
-    <Compile Include="Security\Menu.cs" />
-    <Compile Include="MeetingMember.cs" />
-    <Compile Include="MeetingStatus.cs" />
+    <Compile Include="Registration\Bill.cs" />
+    <Compile Include="Registration\FundInquiry.cs" />
+    <Compile Include="Registration\Unit.cs" />
+    <Compile Include="Registration\Payment.cs" />
+    <Compile Include="Registration\TopupSingle.cs" />
+    <Compile Include="Registration\BillRequest.cs" />
+    <Compile Include="Registration\TransactionInfo.cs" />
+    <Compile Include="Registration\Voucher.cs" />
+    <Compile Include="Registration\VoucherRequest.cs" />
+    <Compile Include="Registration\TopupSingleRequest.cs" />
+    <Compile Include="Registration\FundTransferRequest.cs" />
+    <Compile Include="Registration\BalanceRequest.cs" />
+    <Compile Include="Registration\Transaction.cs" />
+    <Compile Include="Registration\FundTransfer.cs" />
+    <Compile Include="Registration\Balance.cs" />
+    <Compile Include="Registration\PaymentRequest.cs" />
+    <Compile Include="Registration\Request.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Security\User.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Core.Base\Core.Base.csproj">
+      <Project>{ee8790e4-4fc5-4bee-ac76-0cda603b573c}</Project>
+      <Name>Core.Base</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

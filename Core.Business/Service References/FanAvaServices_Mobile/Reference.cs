@@ -611,7 +611,7 @@ namespace Core.Business.FanAvaServices_Mobile {
             }
             set {
                 this.dateField = value;
-                this.RaisePropertyChanged("date");
+                this.RaisePropertyChanged("Date");
             }
         }
         
@@ -683,7 +683,7 @@ namespace Core.Business.FanAvaServices_Mobile {
             }
             set {
                 this.timeField = value;
-                this.RaisePropertyChanged("time");
+                this.RaisePropertyChanged("Time");
             }
         }
         
@@ -798,7 +798,7 @@ namespace Core.Business.FanAvaServices_Mobile {
             }
             set {
                 this.refNoField = value;
-                this.RaisePropertyChanged("refNo");
+                this.RaisePropertyChanged("RefNo");
             }
         }
         

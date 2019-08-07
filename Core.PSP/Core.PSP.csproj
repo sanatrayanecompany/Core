@@ -158,147 +158,6 @@
   <ItemGroup>
     <None Include="Connected Services\FanAvaServices_Mobile\configuration91.svcinfo" />
     <None Include="Connected Services\FanAvaServices_Mobile\configuration.svcinfo" />
-    <Content Include="Connected Services\FanAvaServices_Mobile\Core.PSP.FanAvaServices_Mobile.balanceCPResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Connected Services\FanAvaServices_Mobile\Core.PSP.FanAvaServices_Mobile.balanceOut.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Connected Services\FanAvaServices_Mobile\Core.PSP.FanAvaServices_Mobile.balanceResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Connected Services\FanAvaServices_Mobile\Core.PSP.FanAvaServices_Mobile.baseOutput.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Connected Services\FanAvaServices_Mobile\Core.PSP.FanAvaServices_Mobile.billInqResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Connected Services\FanAvaServices_Mobile\Core.PSP.FanAvaServices_Mobile.billRequestCPResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Connected Services\FanAvaServices_Mobile\Core.PSP.FanAvaServices_Mobile.billRequestResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Connected Services\FanAvaServices_Mobile\Core.PSP.FanAvaServices_Mobile.cardListOut.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Connected Services\FanAvaServices_Mobile\Core.PSP.FanAvaServices_Mobile.configOut.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Connected Services\FanAvaServices_Mobile\Core.PSP.FanAvaServices_Mobile.configResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Connected Services\FanAvaServices_Mobile\Core.PSP.FanAvaServices_Mobile.fundInqOut.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Connected Services\FanAvaServices_Mobile\Core.PSP.FanAvaServices_Mobile.fundInquiryPlainResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Connected Services\FanAvaServices_Mobile\Core.PSP.FanAvaServices_Mobile.fundInquiryResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Connected Services\FanAvaServices_Mobile\Core.PSP.FanAvaServices_Mobile.fundTransferPlainResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Connected Services\FanAvaServices_Mobile\Core.PSP.FanAvaServices_Mobile.fundTransferResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Connected Services\FanAvaServices_Mobile\Core.PSP.FanAvaServices_Mobile.getCardListResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Connected Services\FanAvaServices_Mobile\Core.PSP.FanAvaServices_Mobile.getCardResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Connected Services\FanAvaServices_Mobile\Core.PSP.FanAvaServices_Mobile.jiringBillInqOut.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Connected Services\FanAvaServices_Mobile\Core.PSP.FanAvaServices_Mobile.jiringBillInquiryResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Connected Services\FanAvaServices_Mobile\Core.PSP.FanAvaServices_Mobile.jiringBillRequestResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Connected Services\FanAvaServices_Mobile\Core.PSP.FanAvaServices_Mobile.loginOut.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Connected Services\FanAvaServices_Mobile\Core.PSP.FanAvaServices_Mobile.loginResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Connected Services\FanAvaServices_Mobile\Core.PSP.FanAvaServices_Mobile.paymentRequestCPResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Connected Services\FanAvaServices_Mobile\Core.PSP.FanAvaServices_Mobile.paymentRequestResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Connected Services\FanAvaServices_Mobile\Core.PSP.FanAvaServices_Mobile.refundResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Connected Services\FanAvaServices_Mobile\Core.PSP.FanAvaServices_Mobile.requestCPResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Connected Services\FanAvaServices_Mobile\Core.PSP.FanAvaServices_Mobile.requestResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Connected Services\FanAvaServices_Mobile\Core.PSP.FanAvaServices_Mobile.requestWithIdResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Connected Services\FanAvaServices_Mobile\Core.PSP.FanAvaServices_Mobile.reversalResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Connected Services\FanAvaServices_Mobile\Core.PSP.FanAvaServices_Mobile.settlementResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Connected Services\FanAvaServices_Mobile\Core.PSP.FanAvaServices_Mobile.supportCollectionResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Connected Services\FanAvaServices_Mobile\Core.PSP.FanAvaServices_Mobile.topupMTNCPResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Connected Services\FanAvaServices_Mobile\Core.PSP.FanAvaServices_Mobile.topupMTNCPSingleResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Connected Services\FanAvaServices_Mobile\Core.PSP.FanAvaServices_Mobile.topupMTNResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Connected Services\FanAvaServices_Mobile\Core.PSP.FanAvaServices_Mobile.topupMTNSingleResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Connected Services\FanAvaServices_Mobile\Core.PSP.FanAvaServices_Mobile.topupOut.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Connected Services\FanAvaServices_Mobile\Core.PSP.FanAvaServices_Mobile.topupSetavalCPResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Connected Services\FanAvaServices_Mobile\Core.PSP.FanAvaServices_Mobile.topupSetavalCPSingleResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Connected Services\FanAvaServices_Mobile\Core.PSP.FanAvaServices_Mobile.topupSetavalResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Connected Services\FanAvaServices_Mobile\Core.PSP.FanAvaServices_Mobile.topupSetavalSingleResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Connected Services\FanAvaServices_Mobile\Core.PSP.FanAvaServices_Mobile.walletBalanceResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Connected Services\FanAvaServices_Mobile\Core.PSP.FanAvaServices_Mobile.walletChargeResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Connected Services\FanAvaServices_Mobile\Core.PSP.FanAvaServices_Mobile.walletRequestResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Connected Services\FanAvaServices_Mobile\Core.PSP.FanAvaServices_Mobile.walletTopupMTNResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Connected Services\FanAvaServices_Mobile\Core.PSP.FanAvaServices_Mobile.walletTopupMTNSingleResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Connected Services\FanAvaServices_Mobile\Core.PSP.FanAvaServices_Mobile.walletTopupSetavalResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Connected Services\FanAvaServices_Mobile\Core.PSP.FanAvaServices_Mobile.walletTopupSetavalSingleResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
     <None Include="Connected Services\FanAvaServices_Mobile\Reference.svcmap">
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
@@ -324,15 +183,14 @@
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Areas\Admin\AdminAreaRegistration.cs" />
     <Compile Include="Areas\Admin\Common\Constant.cs" />
-    <Compile Include="Common\Constant.cs" />
     <Compile Include="Connected Services\FanAvaServices_Mobile\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Compile>
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\StackSrvController.cs" />
-    <Compile Include="Controllers\PaymentSrvController.cs" />
+    <Compile Include="Controllers\TransactionServiceController.cs" />
+    <Compile Include="Controllers\Token.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -372,7 +230,7 @@
     <Folder Include="Areas\Admin\Controllers\" />
     <Folder Include="Areas\Admin\cp\" />
     <Folder Include="Areas\Admin\Views\Test\" />
-    <Folder Include="cp\" />
+    <Folder Include="Common\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Core.Business\Core.Business.csproj">

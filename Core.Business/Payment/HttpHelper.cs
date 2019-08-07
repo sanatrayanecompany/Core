@@ -1,19 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
+﻿using System.IO;
 using System.Net;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace Core.Business
 {
-   public class HttpHelper
+    public class HttpHelper
     {
         public static CookieContainer Post(string urlPath,string data)
         {
-            //const string data = "input_user=admin&input_pass=AdminElastix&submit_login=";
-            //const string urlPath = "";
             var dataStream = Encoding.UTF8.GetBytes(data);
             var webRequest = WebRequest.Create(urlPath);
             webRequest.Method = "POST";

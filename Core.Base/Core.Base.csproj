@@ -53,6 +53,7 @@
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
     <Reference Include="System.IdentityModel.Tokens.Jwt, Version=5.2.4.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\System.IdentityModel.Tokens.Jwt.5.2.4\lib\net451\System.IdentityModel.Tokens.Jwt.dll</HintPath>
       <Private>True</Private>
@@ -84,33 +85,55 @@
   <ItemGroup>
     <Compile Include="BaseModels\AppGlobal.cs" />
     <Compile Include="BaseModels\ServiceResult.cs" />
-    <Compile Include="BaseModels\SpParametersInfo.cs" />
-    <Compile Include="Common\AppHelper.cs" />
-    <Compile Include="Common\Attributes.cs" />
-    <Compile Include="Common\Constant.cs" />
-    <Compile Include="Common\Extensions.cs" />
     <Compile Include="Config.cs" />
     <Compile Include="Context.cs" />
     <Compile Include="Controller.cs" />
     <Compile Include="ControllerActivator.cs" />
     <Compile Include="ControllerMethod.cs" />
-    <Compile Include="Filters\AuthorizeUser.cs" />
+    <Compile Include="DbContext.cs">
+      <DependentUpon>DbContext.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DbContext.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DbContext.dbml</DependentUpon>
+    </Compile>
     <Compile Include="Filters\ExceptionHandler.cs" />
-    <Compile Include="Filters\OutputCache.cs" />
-    <Compile Include="Filters\Validation.cs" />
     <Compile Include="Host.cs" />
     <Compile Include="Interfaces\IContext.cs" />
     <Compile Include="Interfaces\IPayLoad.cs" />
     <Compile Include="Interfaces\IToken.cs" />
     <Compile Include="Json.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
     <Compile Include="Resolver.cs" />
     <Compile Include="Service.cs" />
     <Compile Include="Token.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="app.config" />
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DbContext.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>DbContext.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DbContext.dbml.layout">
+      <DependentUpon>DbContext.dbml</DependentUpon>
+    </None>
     <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

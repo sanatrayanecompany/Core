@@ -35,9 +35,17 @@
       <HintPath>..\packages\Dapper.1.50.4\lib\net451\Dapper.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="EPPlus, Version=4.5.2.1, Culture=neutral, PublicKeyToken=ea159fdaa78159a1, processorArchitecture=MSIL">
+      <HintPath>..\packages\EPPlus.4.5.2.1\lib\net40\EPPlus.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
     <Reference Include="System.ServiceModel" />
     <Reference Include="System.Web" />
     <Reference Include="System.Web.Extensions" />
@@ -50,22 +58,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Constants.cs" />
-    <Compile Include="StockBiz.cs" />
+    <Compile Include="log.cs" />
     <Compile Include="Payment\HttpHelper.cs" />
-    <Compile Include="PaymentBiz.cs" />
+    <Compile Include="TransactionService.cs" />
     <Compile Include="Service References\FanAvaServices_Mobile\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Compile>
-    <Compile Include="TestItemBiz.cs" />
-    <Compile Include="TestGroupBiz.cs" />
-    <Compile Include="PayLoad.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="app.config" />
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="packages.config" />
     <None Include="Service References\FanAvaServices_Mobile\Core.Business.FanAvaServices_Mobile.balanceCPResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
@@ -82,7 +88,7 @@
     <None Include="Service References\FanAvaServices_Mobile\Core.Business.FanAvaServices_Mobile.billInqResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\FanAvaServices_Mobile\Core.Business.FanAvaServices_Mobile.billRequestCPResponse.datasource">
+    <None Include="Service References\FanAvaServices_Mobile\Core.Business.FanAvaServices_Mobile.billPaymentRequestAsyncCPResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
     <None Include="Service References\FanAvaServices_Mobile\Core.Business.FanAvaServices_Mobile.billRequestResponse.datasource">
@@ -124,7 +130,7 @@
     <None Include="Service References\FanAvaServices_Mobile\Core.Business.FanAvaServices_Mobile.jiringBillInquiryResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\FanAvaServices_Mobile\Core.Business.FanAvaServices_Mobile.jiringBillRequestResponse.datasource">
+    <None Include="Service References\FanAvaServices_Mobile\Core.Business.FanAvaServices_Mobile.jiringBillRequestAsyncResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
     <None Include="Service References\FanAvaServices_Mobile\Core.Business.FanAvaServices_Mobile.loginOut.datasource">
@@ -133,7 +139,7 @@
     <None Include="Service References\FanAvaServices_Mobile\Core.Business.FanAvaServices_Mobile.loginResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\FanAvaServices_Mobile\Core.Business.FanAvaServices_Mobile.paymentRequestCPResponse.datasource">
+    <None Include="Service References\FanAvaServices_Mobile\Core.Business.FanAvaServices_Mobile.paymentPaymentRequestAsyncCPResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
     <None Include="Service References\FanAvaServices_Mobile\Core.Business.FanAvaServices_Mobile.paymentRequestResponse.datasource">
@@ -187,7 +193,7 @@
     <None Include="Service References\FanAvaServices_Mobile\Core.Business.FanAvaServices_Mobile.topupSetavalSingleResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\FanAvaServices_Mobile\Core.Business.FanAvaServices_Mobile.walletBalanceResponse.datasource">
+    <None Include="Service References\FanAvaServices_Mobile\Core.Business.FanAvaServices_Mobile.walletBalanceAmountResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
     <None Include="Service References\FanAvaServices_Mobile\Core.Business.FanAvaServices_Mobile.walletChargeResponse.datasource">
@@ -196,16 +202,16 @@
     <None Include="Service References\FanAvaServices_Mobile\Core.Business.FanAvaServices_Mobile.walletRequestResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\FanAvaServices_Mobile\Core.Business.FanAvaServices_Mobile.walletTopupMTNResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\FanAvaServices_Mobile\Core.Business.FanAvaServices_Mobile.walletTopupMTNSingleResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
     <None Include="Service References\FanAvaServices_Mobile\Core.Business.FanAvaServices_Mobile.walletTopupSetavalResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
     <None Include="Service References\FanAvaServices_Mobile\Core.Business.FanAvaServices_Mobile.walletTopupSetavalSingleResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\FanAvaServices_Mobile\Core.Business.FanAvaServices_Mobile.walletTopupSingleResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\FanAvaServices_Mobile\Core.Business.FanAvaServices_Mobile.walletTopupSingleSingleResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
     <None Include="Service References\FanAvaServices_Mobile\mobile.xsd">

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <xs:schema xmlns:tns="http://incomingwebchannel.hrz.jpos.org/" targetNamespace="http://incomingwebchannel.hrz.jpos.org/" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:element name="balance" type="tns:balance" />
   <xs:element name="balanceCP" type="tns:balanceCP" />
@@ -119,13 +119,13 @@
     <xs:sequence>
       <xs:element minOccurs="0" name="authInfo" type="tns:authInfo" />
       <xs:element minOccurs="0" name="custMobile" type="xs:string" />
-      <xs:element minOccurs="0" name="date" type="xs:string" />
+      <xs:element minOccurs="0" name="Date" type="xs:string" />
       <xs:element minOccurs="0" name="localIP" type="xs:string" />
       <xs:element minOccurs="0" name="merchantID" type="xs:string" />
       <xs:element minOccurs="0" name="STAN" type="xs:string" />
       <xs:element minOccurs="0" name="serial" type="xs:string" />
       <xs:element minOccurs="0" name="terminalID" type="xs:string" />
-      <xs:element minOccurs="0" name="time" type="xs:string" />
+      <xs:element minOccurs="0" name="Time" type="xs:string" />
       <xs:element minOccurs="0" name="version" type="xs:string" />
     </xs:sequence>
   </xs:complexType>
@@ -143,7 +143,7 @@
   <xs:complexType name="baseOutput">
     <xs:sequence>
       <xs:element minOccurs="0" name="approvalCode" type="xs:string" />
-      <xs:element minOccurs="0" name="refNo" type="xs:string" />
+      <xs:element minOccurs="0" name="RefNo" type="xs:string" />
       <xs:element minOccurs="0" name="responseCode" type="xs:string" />
       <xs:element minOccurs="0" name="responseMsg" type="xs:string" />
     </xs:sequence>

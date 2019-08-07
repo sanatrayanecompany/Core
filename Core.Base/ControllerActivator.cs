@@ -9,12 +9,13 @@ namespace Core.Base
 {
     internal class CoreControllerActivator : IHttpControllerActivator
     {
-        public IHttpController Create(HttpRequestMessage request, HttpControllerDescriptor controllerDescriptor, Type controllerType)
+        public IHttpController Create(HttpRequestMessage request, HttpControllerDescriptor controllerDescriptor,
+            Type controllerType)
         {
             try
             {
 
-                Resolver resolver = new Resolver();
+                var resolver = new Resolver();
 
                 resolver.RegisterType<IContext, Context>();
                 resolver.RegisterType<IToken, Token>();
@@ -23,7 +24,7 @@ namespace Core.Base
                 {
                     ParameterInfo[] parameters = ctor.GetParameters();
 
-                    object[] ctorParams = new object[parameters.Length];
+                    var ctorParams = new object[parameters.Length];
 
                     parameters = parameters.Where(x => x.ParameterType.BaseType == typeof(_Service)).ToArray();
 
@@ -31,11 +32,13 @@ namespace Core.Base
                     {
                         ctorParams[i] = Activator.CreateInstance(parameters[i].ParameterType);
 
-                        foreach (FieldInfo fi in ctorParams[i].GetType().BaseType.GetFields(BindingFlags.NonPublic | BindingFlags.Instance))
+                        foreach (FieldInfo fi in ctorParams[i].GetType().BaseType
+                            .GetFields(BindingFlags.NonPublic | BindingFlags.Instance))
                         {
                             fi.SetValue(ctorParams[i], resolver.GetType(fi.FieldType));
                         }
                     }
+
                     return ctor.Invoke(ctorParams) as IHttpController;
                 }
 
@@ -44,7 +47,7 @@ namespace Core.Base
             catch (Exception ex)
             {
 
-                throw;
+                throw ex.InnerException;
             }
         }
     }
