@@ -46,6 +46,7 @@
     <Compile Include="Base\Message.cs" />
     <Compile Include="Registration\AuthInfo.cs" />
     <Compile Include="Registration\Bill.cs" />
+    <Compile Include="Registration\Client.cs" />
     <Compile Include="Registration\FundInquiry.cs" />
     <Compile Include="Registration\Unit.cs" />
     <Compile Include="Registration\Payment.cs" />
@@ -69,6 +70,9 @@
       <Project>{ee8790e4-4fc5-4bee-ac76-0cda603b573c}</Project>
       <Name>Core.Base</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -5,6 +5,10 @@ using Core.Model;
 using Core.Base;
 using Core.Business.FanAvaServices_Mobile;
 using Request = Core.Model.Request;
+using System.Configuration;
+using System.Data.SqlClient;
+using Dapper;
+using Core.Model.Registration;
 
 namespace Core.Business
 {
@@ -71,6 +75,56 @@ namespace Core.Business
                     return AppGlobal.ServiceResultClientInstance(true, responseMessage ?? "خطای نامشخص");
             }
         }
+
+        /// <summary>
+        /// عملیات تست اتصال 
+        /// </summary>
+        /// <param name="model"></param>
+        /// <returns></returns>
+        public async Task<bool> TestConnection()
+        {
+            var requestCpIn = new requestCPIn();
+            SoapMobileClient s = new SoapMobileClient();
+
+            var resultRequestCP = s.requestCP(requestCpIn);
+            var resultRequestCPMessage = TransactionMessage(resultRequestCP.responseCode, resultRequestCP.responseMsg);
+
+            return resultRequestCPMessage != null ? true : false;
+        }
+
+        /// <summary>
+        /// گرفتن اطلاعات مشتری 
+        /// </summary>
+        /// <param name="model"></param>
+        /// <returns></returns>
+        public async Task<Client> FindClientInfo(int customerId)
+        {
+            try
+            {
+                using (var context = new WebApi.DbContextDataContext())
+                {
+                    var client = context.ClientInfos.Where(m => m.CustomerId == customerId).Single();
+
+                    if (client != null)
+                    {
+                        return new Client()
+                        {
+                            CustomerName = client.CompanyName,
+                            CustomerTell = client.BusinessTell,
+                            HasEppKeyboard = client.HasEppKeyboard ?? false
+                        };
+                    }
+                }
+
+                return null;
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+                throw;
+            }
+        }
+
 
         /// <summary>
         /// عملیات خرید 

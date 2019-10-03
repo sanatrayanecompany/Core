@@ -66,7 +66,7 @@ namespace Core.WebApi
     #endregion
 		
 		public DbContextDataContext() : 
-				base(global::Core.WebApi.Properties.Settings.Default.UCI_DBConnectionString, mappingSource)
+				base(global::Core.WebApi.Properties.Settings.Default.UCIConnectionString, mappingSource)
 		{
 			OnCreated();
 		}
@@ -180,6 +180,14 @@ namespace Core.WebApi
 			get
 			{
 				return this.GetTable<Unit>();
+			}
+		}
+		
+		public System.Data.Linq.Table<ClientInfo> ClientInfos
+		{
+			get
+			{
+				return this.GetTable<ClientInfo>();
 			}
 		}
 	}
@@ -2399,6 +2407,87 @@ namespace Core.WebApi
 		{
 			this.SendPropertyChanging();
 			entity.Unit = null;
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.ClientInfo")]
+	public partial class ClientInfo
+	{
+		
+		private string _CompanyName;
+		
+		private string _BusinessTell;
+		
+		private int _CustomerId;
+		
+		private System.Nullable<bool> _hasEppKeyboard;
+		
+		public ClientInfo()
+		{
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_CompanyName", DbType="NVarChar(100)")]
+		public string CompanyName
+		{
+			get
+			{
+				return this._CompanyName;
+			}
+			set
+			{
+				if ((this._CompanyName != value))
+				{
+					this._CompanyName = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_BusinessTell", DbType="NChar(10)")]
+		public string BusinessTell
+		{
+			get
+			{
+				return this._BusinessTell;
+			}
+			set
+			{
+				if ((this._BusinessTell != value))
+				{
+					this._BusinessTell = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_CustomerId", DbType="Int NOT NULL")]
+		public int CustomerId
+		{
+			get
+			{
+				return this._CustomerId;
+			}
+			set
+			{
+				if ((this._CustomerId != value))
+				{
+					this._CustomerId = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_hasEppKeyboard", DbType="Bit")]
+		public System.Nullable<bool> HasEppKeyboard
+		{
+			get
+			{
+				return this._hasEppKeyboard;
+			}
+			set
+			{
+				if ((this._hasEppKeyboard != value))
+				{
+					this._hasEppKeyboard = value;
+				}
+			}
 		}
 	}
 }

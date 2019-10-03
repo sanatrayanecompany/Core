@@ -27,9 +27,9 @@ namespace Core.WebApi.Properties {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
         [global::System.Configuration.DefaultSettingValueAttribute("Data Source=.;Initial Catalog=UCI_DB;Integrated Security=True")]
-        public string UCI_DBConnectionString {
+        public string UCIConnectionString {
             get {
-                return ((string)(this["UCI_DBConnectionString"]));
+                return ((string)(this["UCIConnectionString"]));
             }
         }
     }

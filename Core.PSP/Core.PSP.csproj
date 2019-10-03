@@ -156,17 +156,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Connected Services\FanAvaServices_Mobile\configuration91.svcinfo" />
-    <None Include="Connected Services\FanAvaServices_Mobile\configuration.svcinfo" />
-    <None Include="Connected Services\FanAvaServices_Mobile\Reference.svcmap">
-      <Generator>WCF Proxy Generator</Generator>
-      <LastGenOutput>Reference.cs</LastGenOutput>
-    </None>
     <Content Include="Global.asax" />
-    <None Include="Connected Services\FanAvaServices_Mobile\mobile.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="Connected Services\FanAvaServices_Mobile\MobileServiceService.wsdl" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -183,11 +173,6 @@
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Areas\Admin\AdminAreaRegistration.cs" />
     <Compile Include="Areas\Admin\Common\Constant.cs" />
-    <Compile Include="Connected Services\FanAvaServices_Mobile\Reference.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Compile>
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\TransactionServiceController.cs" />
     <Compile Include="Controllers\Token.cs" />
@@ -248,9 +233,6 @@
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Connected Services\" />
-  </ItemGroup>
-  <ItemGroup>
-    <WCFMetadataStorage Include="Connected Services\FanAvaServices_Mobile\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

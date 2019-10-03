@@ -3,6 +3,7 @@ using Core.Model;
 using Core.Base;
 using System.Web.Http;
 using System.Threading.Tasks;
+using Core.Model.Registration;
 
 namespace Core.PSP.Controllers
 {
@@ -14,7 +15,21 @@ namespace Core.PSP.Controllers
         {
             TransactionService = transactionService;
         }
-        
+
+        [HttpGet]
+        [Route("TestConnection")]
+        public async Task<bool> TestConnection()
+        {
+            return await TransactionService.TestConnection();
+        }
+
+        [HttpGet]
+        [Route("FindClientInfo")]
+        public async Task<Client> FindClientInfo(int customerId)
+        {
+            return await TransactionService.FindClientInfo(customerId);
+        }
+
         [HttpPost]
         [Route("PaymentRequest")]
         public async Task<ServiceResultClient> PaymentRequest(PaymentRequest model)

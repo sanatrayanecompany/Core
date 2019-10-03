@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?><Database Name="UCI_DB" Class="DbContextDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
-  <Connection Mode="AppSettings" ConnectionString="Data Source=.;Initial Catalog=UCI_DB;Integrated Security=True" SettingsObjectName="Core.WebApi.Properties.Settings" SettingsPropertyName="UCI_DBConnectionString" Provider="System.Data.SqlClient" />
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.;Initial Catalog=UCI_DB;Integrated Security=True" SettingsObjectName="Core.WebApi.Properties.Settings" SettingsPropertyName="UCIConnectionString" Provider="System.Data.SqlClient" />
   <Table Name="dbo.BillTransaction" Member="BillTransactions">
     <Type Name="BillTransaction">
       <Column Name="Id" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
@@ -110,6 +110,14 @@
       <Column Name="TellNumber" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
       <Column Name="CustomerId" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
       <Association Name="Unit_PaymentTransaction" Member="PaymentTransactions" ThisKey="Id" OtherKey="UnitId" Type="PaymentTransaction" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ClientInfo" Member="ClientInfos">
+    <Type Name="ClientInfo">
+      <Column Name="CompanyName" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="BusinessTell" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="CustomerId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="HasEppKeyboard" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
     </Type>
   </Table>
 </Database>
