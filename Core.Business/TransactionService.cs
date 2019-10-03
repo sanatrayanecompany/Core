@@ -160,7 +160,14 @@ namespace Core.Business
                 SoapMobileClient s = new SoapMobileClient();
 
                 var resultRequestCP = s.requestCP(requestCpIn);
-                log.InsertLog(payment, resultRequestCP.responseCode);
+                try
+                {
+                    log.InsertLog(payment, resultRequestCP.responseCode);
+                }
+                catch (Exception)
+                {
+
+                }
 
                 var resultRequestCPMessage = TransactionMessage(resultRequestCP.responseCode, resultRequestCP.responseMsg);
                 if (resultRequestCPMessage.Status != TransactionStatus.SuccessfulTransaction.ToString())
@@ -249,7 +256,14 @@ namespace Core.Business
                 if (resultRequestCPMessage.Status != TransactionStatus.SuccessfulTransaction.ToString())
                 {
                     balance.Success = false;
-                    //var resultLog = await InsertLog(balance);
+                    try
+                    {
+                        //log.InsertLog(balance, resultBalanceCP.responseCode);
+                    }
+                    catch (Exception)
+                    {
+
+                    }
                     balance.RefNo = resultBalanceCP.refNo;
                     balance.BalanceAmount = resultBalanceCP.responseMsg;
                     return resultRequestCPMessage;
@@ -281,8 +295,6 @@ namespace Core.Business
                     resultSettlementMessage.Time = settleReverseIn.time;
 
                     balance.Success = true;
-                    //var resultLog = await InsertLog(balance);
-
                     return resultSettlementMessage;
                 }
             }
@@ -400,7 +412,6 @@ namespace Core.Business
                 if (resultRequestCPMessage.Status != TransactionStatus.SuccessfulTransaction.ToString())
                 {
                     fundTransfer.Success = false;
-                    //var resultLog = await InsertLog(fundTransfer);
                     fundTransfer.RefNo = resultFundTransfer.refNo;
                     fundTransfer.Amount = resultFundTransfer.responseMsg;
                     return resultRequestCPMessage;
@@ -432,7 +443,6 @@ namespace Core.Business
                     resultSettlementMessage.Time = settleReverseIn.time;
 
                     fundTransfer.Success = true;
-                    //var resultLog = await InsertLog(fundTransfer);
 
                     return resultSettlementMessage;
                 }
@@ -495,7 +505,6 @@ namespace Core.Business
                 if (resultRequestCPMessage.Status != TransactionStatus.SuccessfulTransaction.ToString())
                 {
                     topupSingle.Success = false;
-                    //var resultLog = await InsertLog(topupSingle);
                     topupSingle.RefNo = topupMTNCpSingle.refNo;
                     topupSingle.Amount = topupMTNCpSingle.responseMsg;
                     return resultRequestCPMessage;
@@ -536,8 +545,6 @@ namespace Core.Business
                     resultSettlementMessage.Time = settleReverseIn.time;
 
                     topupSingle.Success = true;
-                    //var resultLog = await InsertLog(topupSingle);
-
                     return resultSettlementMessage;
                 }
             }
